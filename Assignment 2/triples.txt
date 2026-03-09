@@ -1,0 +1,10 @@
+Marie Curie,discovered,radium
+Marie Curie,discovered,polonium
+radium,used in,radiotherapy
+polonium,used in,cancer treatment
+radiotherapy,advances,medical imaging
+cancer treatment,advances,medical imaging
+radiation safety,related to,medical imaging
+Marie Curie,won,Nobel Prize
+Nobel Prize,recognized in,physics
+physics,influenced,medical imaging
