@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+# Virtual environment
+venv/
+env/
+ENV/
+# Logs
+*.log
+# SQLite database (optional, if you don't want to track local DB)
+*.db
+# Environment variables
+.env
+# IDE files
+.vscode/
+.idea/
+# Mac system files
+.DS_Store
+# Pytest cache
+.pytest_cache/
