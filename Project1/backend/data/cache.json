@@ -1,0 +1,183 @@
+{
+  "meetings_db": [
+    {
+      "id": 1,
+      "title": "Product development progress review",
+      "summary": "Meeting Notes Summary\n\nMeeting Title: Product Development Sync\nDate: 25 March 2026\nTime: 10:00 AM \u2013 11:15 AM\nLocation: Zoom / Conference Room B\n\nAttendees\nJohn Tan (Project Manager)\nSarah Lim (Product Lead)\nDaniel Wong (Engineering Lead)\nPriya Nair (UX Designer)\nMarcus Lee (QA Lead)\nAgenda\nSprint progress review\nFeature updates\nBug tracking and QA status\nTimeline and deliverables\nAny other business\nKey Discussion Points\n\n1. Sprint Progress\n\nEngineering team reported ~75% completion of current sprint tasks.\nSlight delay due to integration issues with payment API.\nBackend services are stable; frontend still undergoing UI refinements.\n\n2. Feature Updates\n\nNew user onboarding flow has been implemented and is ready for internal testing.\nDashboard analytics feature is still in development, expected completion by next sprint.\nDecision made to postpone social sharing feature to next release phase.\n\n3. Bug Tracking & QA\n\nQA team identified 12 new bugs, 5 marked as high priority.\nCritical issue with login timeout under investigation.\nRegression testing scheduled for Thursday.\n\n4. Timeline & Deliverables\n\nCurrent release deadline remains 5 April 2026, but flagged as \u201cat risk.\u201d\nBuffer time may be required depending on API issue resolution.\nTeam agreed to reassess timeline in next meeting.\n\n5. Other Business\n\nPriya suggested improving accessibility compliance (WCAG standards).\nDiscussion on adding user feedback collection post-launch.",
+      "triples": [
+        {
+          "subject": "Engineering team",
+          "relation": "reported_by",
+          "object": "Daniel Wong"
+        },
+        {
+          "subject": "Sprint tasks",
+          "relation": "has_status",
+          "object": "75% completion"
+        },
+        {
+          "subject": "Payment API integration",
+          "relation": "depends_on",
+          "object": "Backend services"
+        },
+        {
+          "subject": "New user onboarding flow",
+          "relation": "has_status",
+          "object": "Ready for internal testing"
+        },
+        {
+          "subject": "Dashboard analytics feature",
+          "relation": "has_status",
+          "object": "In development"
+        },
+        {
+          "subject": "Social sharing feature",
+          "relation": "decided",
+          "object": "Postponed to next release phase"
+        },
+        {
+          "subject": "QA team",
+          "relation": "reported_by",
+          "object": "Marcus Lee"
+        },
+        {
+          "subject": "Bugs",
+          "relation": "has_priority",
+          "object": "High priority"
+        },
+        {
+          "subject": "Login timeout issue",
+          "relation": "investigated_by",
+          "object": "QA team"
+        },
+        {
+          "subject": "Regression testing",
+          "relation": "scheduled_for",
+          "object": "Thursday"
+        },
+        {
+          "subject": "Release deadline",
+          "relation": "has_status",
+          "object": "At risk"
+        },
+        {
+          "subject": "Release deadline",
+          "relation": "scheduled_for",
+          "object": "5 April 2026"
+        },
+        {
+          "subject": "API issue resolution",
+          "relation": "depends_on",
+          "object": "Buffer time"
+        },
+        {
+          "subject": "Timeline reassessment",
+          "relation": "scheduled_for",
+          "object": "Next meeting"
+        },
+        {
+          "subject": "Accessibility compliance improvement",
+          "relation": "suggested_by",
+          "object": "Priya Nair"
+        },
+        {
+          "subject": "User feedback collection",
+          "relation": "discussed_in",
+          "object": "Meeting 1"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "HR policy and recruitment update discussion",
+      "summary": "Meeting Notes Summary\n\nMeeting Title: HR Policy & Recruitment Update\nDate: 25 March 2026\nTime: 2:00 PM \u2013 3:15 PM\nLocation: Conference Room A\n\nAttendees\nAmanda Chen (HR Manager)\nKevin Tan (Recruitment Lead)\nLisa Wong (Employee Engagement Specialist)\nRavi Kumar (HR Analyst)\nEmily Lim (Training Coordinator)\nAgenda\nRecruitment pipeline updates\nEmployee onboarding & training programs\nHR policy review\nEmployee engagement initiatives\nAny other business\nKey Discussion Points\n\n1. Recruitment Pipeline\n\nCurrent open positions: 8 roles across Engineering, Sales, and Marketing.\n3 candidates shortlisted for Engineering roles; interviews scheduled next week.\nRecruitment team exploring new job boards to attract diverse candidates.\n\n2. Onboarding & Training\n\nNew onboarding schedule finalized for April hires.\nTraining program for soft skills and compliance to be rolled out next month.\nFeedback from previous onboarding sessions showed high satisfaction, but suggested more role-specific mentorship.\n\n3. HR Policy Review\n\nAnnual leave policy updates discussed; approved changes to be communicated by email.\nRemote work policy revisions finalized for hybrid team arrangements.\n\n4. Employee Engagement\n\nPlanning a quarterly virtual team-building event in early May.\nEmployee survey results indicate interest in wellness programs and flexible hours.\n\n5. Other Business\n\nDiscussion on implementing an internal referral bonus scheme.\nKevin suggested a hiring tracker dashboard for management review.",
+      "triples": [
+        {
+          "subject": "Amanda Chen",
+          "relation": "attended",
+          "object": "Meeting 2"
+        },
+        {
+          "subject": "Kevin Tan",
+          "relation": "attended",
+          "object": "Meeting 2"
+        },
+        {
+          "subject": "Lisa Wong",
+          "relation": "attended",
+          "object": "Meeting 2"
+        },
+        {
+          "subject": "Ravi Kumar",
+          "relation": "attended",
+          "object": "Meeting 2"
+        },
+        {
+          "subject": "Emily Lim",
+          "relation": "attended",
+          "object": "Meeting 2"
+        },
+        {
+          "subject": "Recruitment pipeline updates",
+          "relation": "discussed_in",
+          "object": "Meeting 2"
+        },
+        {
+          "subject": "Employee onboarding & training programs",
+          "relation": "discussed_in",
+          "object": "Meeting 2"
+        },
+        {
+          "subject": "HR policy review",
+          "relation": "discussed_in",
+          "object": "Meeting 2"
+        },
+        {
+          "subject": "Employee engagement initiatives",
+          "relation": "discussed_in",
+          "object": "Meeting 2"
+        },
+        {
+          "subject": "Annual leave policy updates",
+          "relation": "decided",
+          "object": "Meeting 2"
+        },
+        {
+          "subject": "Remote work policy revisions",
+          "relation": "decided",
+          "object": "Meeting 2"
+        },
+        {
+          "subject": "Quarterly virtual team-building event",
+          "relation": "scheduled_for",
+          "object": "Early May"
+        },
+        {
+          "subject": "Internal referral bonus scheme",
+          "relation": "discussed_in",
+          "object": "Meeting 2"
+        },
+        {
+          "subject": "Hiring tracker dashboard",
+          "relation": "suggested_by",
+          "object": "Kevin Tan"
+        },
+        {
+          "subject": "Employee survey results",
+          "relation": "reported_by",
+          "object": "Meeting 2"
+        },
+        {
+          "subject": "New onboarding schedule",
+          "relation": "has_status",
+          "object": "Finalized"
+        },
+        {
+          "subject": "Training program",
+          "relation": "has_status",
+          "object": "To be rolled out next month"
+        }
+      ]
+    }
+  ]
+}

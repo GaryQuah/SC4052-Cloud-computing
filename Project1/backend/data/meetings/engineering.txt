@@ -1,0 +1,49 @@
+Meeting Notes Summary
+
+Meeting Title: Product Development Sync
+Date: 25 March 2026
+Time: 10:00 AM – 11:15 AM
+Location: Zoom / Conference Room B
+
+Attendees
+John Tan (Project Manager)
+Sarah Lim (Product Lead)
+Daniel Wong (Engineering Lead)
+Priya Nair (UX Designer)
+Marcus Lee (QA Lead)
+Agenda
+Sprint progress review
+Feature updates
+Bug tracking and QA status
+Timeline and deliverables
+Any other business
+Key Discussion Points
+
+1. Sprint Progress
+
+Engineering team reported ~75% completion of current sprint tasks.
+Slight delay due to integration issues with payment API.
+Backend services are stable; frontend still undergoing UI refinements.
+
+2. Feature Updates
+
+New user onboarding flow has been implemented and is ready for internal testing.
+Dashboard analytics feature is still in development, expected completion by next sprint.
+Decision made to postpone social sharing feature to next release phase.
+
+3. Bug Tracking & QA
+
+QA team identified 12 new bugs, 5 marked as high priority.
+Critical issue with login timeout under investigation.
+Regression testing scheduled for Thursday.
+
+4. Timeline & Deliverables
+
+Current release deadline remains 5 April 2026, but flagged as “at risk.”
+Buffer time may be required depending on API issue resolution.
+Team agreed to reassess timeline in next meeting.
+
+5. Other Business
+
+Priya suggested improving accessibility compliance (WCAG standards).
+Discussion on adding user feedback collection post-launch.
