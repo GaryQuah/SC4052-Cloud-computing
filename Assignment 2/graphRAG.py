@@ -18,10 +18,13 @@ with open(triples_file_path, 'r', encoding='utf-8') as f:
             edges.append((subject, obj))
             relations[(subject, obj)] = relation
 
+print(f"Edges: {edges}")
+print(f"\nRelations: {relations}")
+
 G = nx.DiGraph()
 G.add_edges_from(edges)
 
-query = "Marie Curie's contributions to radioactivity"
+query = "Marie Curie and radium"
 keywords = query.lower().split()
 
 personalization = {}
@@ -43,7 +46,7 @@ for node in personalization:
 alpha = 0.85
 pr_scores = nx.pagerank(G, alpha=alpha, personalization=personalization, tol=1e-6)
 
-top_k = 3
+top_k = 5
 top_nodes = sorted(pr_scores.items(), key=lambda x: x[1], reverse=True)[:top_k]
 
 print("\nTop relevant nodes:")
