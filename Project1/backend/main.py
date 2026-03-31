@@ -10,9 +10,7 @@ import dotenv
 from fastapi.middleware.cors import CORSMiddleware
 import logging
 
-# -----------------------------
 # Setup
-# -----------------------------
 dotenv.load_dotenv()
 groqKey = os.getenv("GROQ_API_KEY")
 
@@ -219,9 +217,7 @@ Query: {query}"""}],
     return results
 
 
-# -----------------------------
 # Query
-# -----------------------------
 SYSTEM_PROMPT = """You are a precise meeting-notes assistant. Answer questions strictly \
 from the provided meeting data — never from general knowledge or inference.
 
@@ -272,9 +268,7 @@ Relevant meeting notes:
     return res.choices[0].message.content
 
 
-# -----------------------------
 # Endpoints
-# -----------------------------
 @app.post("/query")
 def query(req: QueryRequest):
     history = [{"role": m.role, "content": m.content} for m in req.history]
