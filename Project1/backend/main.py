@@ -283,10 +283,22 @@ def load(notes_body: Optional[NotesBody] = Body(None)):
         summary = notes_body.notes
         meeting_id = get_next_meeting_id()
         print(f"[LOAD] Adding meeting {meeting_id}")
+        title = extract_title(summary)
+
+        # Save the notes to a new .txt file
+        filename = f"meeting_{meeting_id}.txt"
+        filepath = os.path.join(DATA_DIR, filename)
+        try:
+            with open(filepath, "w", encoding="utf-8") as f:
+                f.write(summary)
+            logging.info(f"[LOAD] Saved new meeting to {filepath}")
+        except IOError as e:
+            logging.error(f"Failed to save meeting file: {e}")
+
         triples = extract_triples(summary, meeting_id)
         meetings_db.append({
             "id": meeting_id,
-            "title": extract_title(summary),
+            "title": title,
             "summary": summary,
             "triples": triples,
         })
