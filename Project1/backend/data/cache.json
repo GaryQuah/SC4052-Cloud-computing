@@ -47,8 +47,8 @@
         },
         {
           "subject": "Login timeout issue",
-          "relation": "investigated_by",
-          "object": "QA team"
+          "relation": "involves",
+          "object": "Critical issue"
         },
         {
           "subject": "Regression testing",
@@ -64,11 +64,6 @@
           "subject": "Release deadline",
           "relation": "scheduled_for",
           "object": "5 April 2026"
-        },
-        {
-          "subject": "API issue resolution",
-          "relation": "depends_on",
-          "object": "Buffer time"
         },
         {
           "subject": "Timeline reassessment",
@@ -89,7 +84,7 @@
     },
     {
       "id": 2,
-      "title": "HR policy and recruitment update discussion",
+      "title": "HR Policy and Recruitment Update",
       "summary": "Meeting Notes Summary\n\nMeeting Title: HR Policy & Recruitment Update\nDate: 25 March 2026\nTime: 2:00 PM \u2013 3:15 PM\nLocation: Conference Room A\n\nAttendees\nAmanda Chen (HR Manager)\nKevin Tan (Recruitment Lead)\nLisa Wong (Employee Engagement Specialist)\nRavi Kumar (HR Analyst)\nEmily Lim (Training Coordinator)\nAgenda\nRecruitment pipeline updates\nEmployee onboarding & training programs\nHR policy review\nEmployee engagement initiatives\nAny other business\nKey Discussion Points\n\n1. Recruitment Pipeline\n\nCurrent open positions: 8 roles across Engineering, Sales, and Marketing.\n3 candidates shortlisted for Engineering roles; interviews scheduled next week.\nRecruitment team exploring new job boards to attract diverse candidates.\n\n2. Onboarding & Training\n\nNew onboarding schedule finalized for April hires.\nTraining program for soft skills and compliance to be rolled out next month.\nFeedback from previous onboarding sessions showed high satisfaction, but suggested more role-specific mentorship.\n\n3. HR Policy Review\n\nAnnual leave policy updates discussed; approved changes to be communicated by email.\nRemote work policy revisions finalized for hybrid team arrangements.\n\n4. Employee Engagement\n\nPlanning a quarterly virtual team-building event in early May.\nEmployee survey results indicate interest in wellness programs and flexible hours.\n\n5. Other Business\n\nDiscussion on implementing an internal referral bonus scheme.\nKevin suggested a hiring tracker dashboard for management review.",
       "triples": [
         {
@@ -118,101 +113,96 @@
           "object": "Meeting 2"
         },
         {
-          "subject": "Recruitment pipeline updates",
+          "subject": "Recruitment Pipeline",
           "relation": "discussed_in",
           "object": "Meeting 2"
         },
         {
-          "subject": "Employee onboarding & training programs",
+          "subject": "Employee Onboarding & Training",
           "relation": "discussed_in",
           "object": "Meeting 2"
         },
         {
-          "subject": "HR policy review",
+          "subject": "HR Policy Review",
           "relation": "discussed_in",
           "object": "Meeting 2"
         },
         {
-          "subject": "Employee engagement initiatives",
+          "subject": "Employee Engagement Initiatives",
           "relation": "discussed_in",
           "object": "Meeting 2"
         },
         {
-          "subject": "Annual leave policy updates",
-          "relation": "decided",
-          "object": "Meeting 2"
-        },
-        {
-          "subject": "Remote work policy revisions",
-          "relation": "decided",
-          "object": "Meeting 2"
-        },
-        {
-          "subject": "Quarterly virtual team-building event",
-          "relation": "scheduled_for",
-          "object": "Early May"
-        },
-        {
-          "subject": "Internal referral bonus scheme",
+          "subject": "Internal Referral Bonus Scheme",
           "relation": "discussed_in",
           "object": "Meeting 2"
         },
         {
-          "subject": "Hiring tracker dashboard",
+          "subject": "Hiring Tracker Dashboard",
           "relation": "suggested_by",
           "object": "Kevin Tan"
         },
         {
-          "subject": "Employee survey results",
-          "relation": "reported_by",
+          "subject": "Annual Leave Policy Updates",
+          "relation": "decided",
           "object": "Meeting 2"
         },
         {
-          "subject": "New onboarding schedule",
+          "subject": "Remote Work Policy Revisions",
+          "relation": "decided",
+          "object": "Meeting 2"
+        },
+        {
+          "subject": "Quarterly Virtual Team-Building Event",
+          "relation": "scheduled_for",
+          "object": "Early May"
+        },
+        {
+          "subject": "Training Program",
+          "relation": "scheduled_for",
+          "object": "Next Month"
+        },
+        {
+          "subject": "New Onboarding Schedule",
           "relation": "has_status",
           "object": "Finalized"
         },
         {
-          "subject": "Training program",
-          "relation": "has_status",
-          "object": "To be rolled out next month"
+          "subject": "Employee Survey Results",
+          "relation": "reported_by",
+          "object": "Meeting 2"
         }
       ]
     },
     {
       "id": 3,
-      "title": "Marketing strategy discussion",
-      "summary": "Meeting Notes Summary\n\nMeeting Title: Marketing Strategy Sync Date: 01 March 2026 Time: 10:00\nAM \u2013 11:00 AM Location: Conference Room A / Zoom\n\nAttendees Alice Tan Ben Lim Chris Wong Diana Koh Ethan Goh\n\nAgenda Project updates Issues and blockers Next steps planning\n\nKey Discussion Points\n\n1.  Progress Update Team reported steady progress with minor blockers.\n\n2.  Issues Some delays due to dependencies and coordination gaps.\n\n3.  Decisions Agreed to prioritize critical tasks for next sprint.\n\n4.  Next Steps Action items assigned to respective team members.\n",
+      "title": "Engineering team progress update",
+      "summary": "Meeting Notes Summary\n\nMeeting Title: Engineering Standup Date: 02 March 2026 Time: 10:00 AM \u2013\n11:00 AM Location: Conference Room A / Zoom\n\nAttendees Alice Tan Ben Lim Chris Wong Diana Koh Ethan Goh\n\nAgenda Project updates Issues and blockers Next steps planning\n\nKey Discussion Points\n\n1.  Progress Update Team reported steady progress with minor blockers.\n\n2.  Issues Some delays due to dependencies and coordination gaps.\n\n3.  Decisions Agreed to prioritize critical tasks for next sprint.\n\n4.  Next Steps Action items assigned to respective team members.\n",
       "triples": [
         {
-          "subject": "Marketing Strategy Sync",
+          "subject": "Engineering Standup",
           "relation": "discussed_in",
           "object": "Meeting 3"
         },
         {
-          "subject": "Project updates",
-          "relation": "discussed_in",
-          "object": "Meeting 3"
-        },
-        {
-          "subject": "Issues and blockers",
-          "relation": "discussed_in",
-          "object": "Meeting 3"
-        },
-        {
-          "subject": "Next steps planning",
-          "relation": "discussed_in",
-          "object": "Meeting 3"
-        },
-        {
-          "subject": "Team",
+          "subject": "Alice Tan",
           "relation": "reported_by",
+          "object": "Progress Update"
+        },
+        {
+          "subject": "Progress Update",
+          "relation": "discussed_in",
           "object": "Meeting 3"
         },
         {
-          "subject": "Critical tasks",
-          "relation": "decided",
-          "object": "Prioritization"
+          "subject": "Issues",
+          "relation": "discussed_in",
+          "object": "Meeting 3"
+        },
+        {
+          "subject": "Next Steps",
+          "relation": "discussed_in",
+          "object": "Meeting 3"
         },
         {
           "subject": "Action items",
@@ -220,27 +210,32 @@
           "object": "Team members"
         },
         {
-          "subject": "Meeting 3",
+          "subject": "Critical tasks",
+          "relation": "decided",
+          "object": "Prioritization"
+        },
+        {
+          "subject": "Engineering Standup",
           "relation": "involves",
           "object": "Alice Tan"
         },
         {
-          "subject": "Meeting 3",
+          "subject": "Engineering Standup",
           "relation": "involves",
           "object": "Ben Lim"
         },
         {
-          "subject": "Meeting 3",
+          "subject": "Engineering Standup",
           "relation": "involves",
           "object": "Chris Wong"
         },
         {
-          "subject": "Meeting 3",
+          "subject": "Engineering Standup",
           "relation": "involves",
           "object": "Diana Koh"
         },
         {
-          "subject": "Meeting 3",
+          "subject": "Engineering Standup",
           "relation": "involves",
           "object": "Ethan Goh"
         }

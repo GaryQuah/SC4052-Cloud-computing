@@ -1,9 +1,7 @@
 import { useState } from "react";
 import { Modal, Button, Form } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-
-type Message = { type: "user" | "bot"; text: string };
-type HistoryMessage = { role: "user" | "assistant"; content: string };
+import { type Message, type HistoryMessage } from "./models/message";
 
 function App() {
   const [query, setQuery] = useState("");
