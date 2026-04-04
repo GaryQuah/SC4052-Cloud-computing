@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Modal, Button, Form } from "react-bootstrap";
+import { Modal, Button, Form, Spinner } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { type Message, type HistoryMessage } from "./models/message";
 
@@ -10,6 +10,7 @@ function App() {
   const [showModal, setShowModal] = useState(false);
   const [notes, setNotes] = useState("");
   const [loading, setLoading] = useState(false);
+  const [loadingText, setLoadingText] = useState("");
 
   const handleQuery = async () => {
     if (!query.trim()) return;
@@ -22,6 +23,7 @@ function App() {
     setMessages(newMessages);
     setQuery("");
     setLoading(true);
+    setLoadingText("Thinking...");
 
     const res = await fetch("http://localhost:8000/query", {
       method: "POST",
@@ -42,6 +44,7 @@ function App() {
     ]);
 
     setLoading(false);
+    setLoadingText("");
   };
 
   const handleClearContext = () => {
@@ -50,6 +53,8 @@ function App() {
   };
 
   const handleUpload = async () => {
+    setLoading(true);
+    setLoadingText("Uploading...");
     await fetch("http://localhost:8000/load-meetings", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -57,11 +62,17 @@ function App() {
     });
     setShowModal(false);
     setNotes("");
+    setLoading(false);
+    setLoadingText("");
   };
 
   const handleReload = async () => {
+    setLoading(true);
+    setLoadingText("Reloading graphs...");
     await fetch("http://localhost:8000/load-meetings", { method: "POST" });
     alert("Reloaded!");
+    setLoading(false);
+    setLoadingText("");
   };
 
   return (
@@ -119,8 +130,9 @@ function App() {
 
           {loading && (
             <div className="d-flex justify-content-start">
-              <div className="p-2 m-1 rounded bg-light text-muted fst-italic">
-                Thinking…
+              <div className="p-2 m-1 rounded bg-light d-flex align-items-center">
+                <Spinner animation="border" size="sm" className="me-2" />
+                {loadingText}
               </div>
             </div>
           )}

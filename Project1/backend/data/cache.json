@@ -6,79 +6,114 @@
       "summary": "Meeting Notes Summary\n\nMeeting Title: Product Development Sync\nDate: 25 March 2026\nTime: 10:00 AM \u2013 11:15 AM\nLocation: Zoom / Conference Room B\n\nAttendees\nJohn Tan (Project Manager)\nSarah Lim (Product Lead)\nDaniel Wong (Engineering Lead)\nPriya Nair (UX Designer)\nMarcus Lee (QA Lead)\nAgenda\nSprint progress review\nFeature updates\nBug tracking and QA status\nTimeline and deliverables\nAny other business\nKey Discussion Points\n\n1. Sprint Progress\n\nEngineering team reported ~75% completion of current sprint tasks.\nSlight delay due to integration issues with payment API.\nBackend services are stable; frontend still undergoing UI refinements.\n\n2. Feature Updates\n\nNew user onboarding flow has been implemented and is ready for internal testing.\nDashboard analytics feature is still in development, expected completion by next sprint.\nDecision made to postpone social sharing feature to next release phase.\n\n3. Bug Tracking & QA\n\nQA team identified 12 new bugs, 5 marked as high priority.\nCritical issue with login timeout under investigation.\nRegression testing scheduled for Thursday.\n\n4. Timeline & Deliverables\n\nCurrent release deadline remains 5 April 2026, but flagged as \u201cat risk.\u201d\nBuffer time may be required depending on API issue resolution.\nTeam agreed to reassess timeline in next meeting.\n\n5. Other Business\n\nPriya suggested improving accessibility compliance (WCAG standards).\nDiscussion on adding user feedback collection post-launch.",
       "triples": [
         {
-          "subject": "Engineering team",
+          "subject": "Sprint Progress",
+          "relation": "discussed_in",
+          "object": "Product Development Sync"
+        },
+        {
+          "subject": "Engineering Team",
           "relation": "reported_by",
           "object": "Daniel Wong"
         },
         {
-          "subject": "Sprint tasks",
-          "relation": "has_status",
-          "object": "75% completion"
-        },
-        {
-          "subject": "Payment API integration",
+          "subject": "Payment API Integration",
           "relation": "depends_on",
-          "object": "Backend services"
+          "object": "Sprint Progress"
         },
         {
-          "subject": "New user onboarding flow",
+          "subject": "Backend Services",
           "relation": "has_status",
-          "object": "Ready for internal testing"
+          "object": "Stable"
         },
         {
-          "subject": "Dashboard analytics feature",
+          "subject": "Frontend Services",
           "relation": "has_status",
-          "object": "In development"
+          "object": "Undergoing UI Refinements"
         },
         {
-          "subject": "Social sharing feature",
+          "subject": "New User Onboarding Flow",
           "relation": "decided",
-          "object": "Postponed to next release phase"
+          "object": "Ready for Internal Testing"
         },
         {
-          "subject": "QA team",
+          "subject": "Dashboard Analytics Feature",
+          "relation": "has_status",
+          "object": "In Development"
+        },
+        {
+          "subject": "Social Sharing Feature",
+          "relation": "decided",
+          "object": "Postponed to Next Release"
+        },
+        {
+          "subject": "QA Team",
           "relation": "reported_by",
           "object": "Marcus Lee"
         },
         {
           "subject": "Bugs",
           "relation": "has_priority",
-          "object": "High priority"
+          "object": "High Priority"
         },
         {
-          "subject": "Login timeout issue",
+          "subject": "Critical Login Timeout Issue",
           "relation": "involves",
-          "object": "Critical issue"
+          "object": "QA Team"
         },
         {
-          "subject": "Regression testing",
+          "subject": "Regression Testing",
           "relation": "scheduled_for",
           "object": "Thursday"
         },
         {
-          "subject": "Release deadline",
+          "subject": "Current Release Deadline",
           "relation": "has_status",
-          "object": "At risk"
+          "object": "At Risk"
         },
         {
-          "subject": "Release deadline",
-          "relation": "scheduled_for",
-          "object": "5 April 2026"
+          "subject": "Buffer Time",
+          "relation": "depends_on",
+          "object": "API Issue Resolution"
         },
         {
-          "subject": "Timeline reassessment",
-          "relation": "scheduled_for",
-          "object": "Next meeting"
+          "subject": "Priya Nair",
+          "relation": "suggested",
+          "object": "Improving Accessibility Compliance"
         },
         {
-          "subject": "Accessibility compliance improvement",
-          "relation": "suggested_by",
+          "subject": "User Feedback Collection",
+          "relation": "discussed_in",
+          "object": "Product Development Sync"
+        },
+        {
+          "subject": "Action Item: Reassess Timeline",
+          "relation": "action_item",
+          "object": "Next Meeting"
+        },
+        {
+          "subject": "Product Development Sync",
+          "relation": "involves",
+          "object": "John Tan"
+        },
+        {
+          "subject": "Product Development Sync",
+          "relation": "involves",
+          "object": "Sarah Lim"
+        },
+        {
+          "subject": "Product Development Sync",
+          "relation": "involves",
+          "object": "Daniel Wong"
+        },
+        {
+          "subject": "Product Development Sync",
+          "relation": "involves",
           "object": "Priya Nair"
         },
         {
-          "subject": "User feedback collection",
-          "relation": "discussed_in",
-          "object": "Meeting 1"
+          "subject": "Product Development Sync",
+          "relation": "involves",
+          "object": "Marcus Lee"
         }
       ]
     },
@@ -118,7 +153,7 @@
           "object": "Meeting 2"
         },
         {
-          "subject": "Employee Onboarding & Training",
+          "subject": "Employee Onboarding & Training Programs",
           "relation": "discussed_in",
           "object": "Meeting 2"
         },
@@ -131,16 +166,6 @@
           "subject": "Employee Engagement Initiatives",
           "relation": "discussed_in",
           "object": "Meeting 2"
-        },
-        {
-          "subject": "Internal Referral Bonus Scheme",
-          "relation": "discussed_in",
-          "object": "Meeting 2"
-        },
-        {
-          "subject": "Hiring Tracker Dashboard",
-          "relation": "suggested_by",
-          "object": "Kevin Tan"
         },
         {
           "subject": "Annual Leave Policy Updates",
@@ -158,9 +183,19 @@
           "object": "Early May"
         },
         {
-          "subject": "Training Program",
-          "relation": "scheduled_for",
-          "object": "Next Month"
+          "subject": "Internal Referral Bonus Scheme",
+          "relation": "discussed_in",
+          "object": "Meeting 2"
+        },
+        {
+          "subject": "Hiring Tracker Dashboard",
+          "relation": "suggested_by",
+          "object": "Kevin Tan"
+        },
+        {
+          "subject": "Employee Survey Results",
+          "relation": "reported_by",
+          "object": "Meeting 2"
         },
         {
           "subject": "New Onboarding Schedule",
@@ -168,9 +203,9 @@
           "object": "Finalized"
         },
         {
-          "subject": "Employee Survey Results",
-          "relation": "reported_by",
-          "object": "Meeting 2"
+          "subject": "Training Program",
+          "relation": "has_status",
+          "object": "To be rolled out next month"
         }
       ]
     },
@@ -186,23 +221,85 @@
         },
         {
           "subject": "Alice Tan",
+          "relation": "involves",
+          "object": "Meeting 3"
+        },
+        {
+          "subject": "Ben Lim",
+          "relation": "involves",
+          "object": "Meeting 3"
+        },
+        {
+          "subject": "Chris Wong",
+          "relation": "involves",
+          "object": "Meeting 3"
+        },
+        {
+          "subject": "Diana Koh",
+          "relation": "involves",
+          "object": "Meeting 3"
+        },
+        {
+          "subject": "Ethan Goh",
+          "relation": "involves",
+          "object": "Meeting 3"
+        },
+        {
+          "subject": "Project updates",
+          "relation": "discussed_in",
+          "object": "Meeting 3"
+        },
+        {
+          "subject": "Issues and blockers",
+          "relation": "discussed_in",
+          "object": "Meeting 3"
+        },
+        {
+          "subject": "Next steps planning",
+          "relation": "discussed_in",
+          "object": "Meeting 3"
+        },
+        {
+          "subject": "Team",
           "relation": "reported_by",
-          "object": "Progress Update"
-        },
-        {
-          "subject": "Progress Update",
-          "relation": "discussed_in",
           "object": "Meeting 3"
         },
         {
-          "subject": "Issues",
-          "relation": "discussed_in",
-          "object": "Meeting 3"
+          "subject": "Critical tasks",
+          "relation": "decided",
+          "object": "Prioritization"
         },
         {
-          "subject": "Next Steps",
+          "subject": "Action items",
+          "relation": "assigned_to",
+          "object": "Team members"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Backend Architecture Review discussion",
+      "summary": "Meeting Notes Summary\n\nMeeting Title: Backend Architecture Review Date: 11 March 2026 Time:\n10:00 AM \u2013 11:00 AM Location: Conference Room A / Zoom\n\nAttendees Alice Tan Ben Lim Chris Wong Diana Koh Ethan Goh\n\nAgenda Project updates Issues and blockers Next steps planning\n\nKey Discussion Points\n\n1.  Progress Update Team reported steady progress with minor blockers.\n\n2.  Issues Some delays due to dependencies and coordination gaps.\n\n3.  Decisions Agreed to prioritize critical tasks for next sprint.\n\n4.  Next Steps Action items assigned to respective team members.\n",
+      "triples": [
+        {
+          "subject": "Project updates",
           "relation": "discussed_in",
-          "object": "Meeting 3"
+          "object": "Meeting 4"
+        },
+        {
+          "subject": "Issues and blockers",
+          "relation": "discussed_in",
+          "object": "Meeting 4"
+        },
+        {
+          "subject": "Next steps planning",
+          "relation": "discussed_in",
+          "object": "Meeting 4"
+        },
+        {
+          "subject": "Team",
+          "relation": "reported_by",
+          "object": "Meeting 4"
         },
         {
           "subject": "Action items",
@@ -215,29 +312,39 @@
           "object": "Prioritization"
         },
         {
-          "subject": "Engineering Standup",
+          "subject": "Meeting 4",
           "relation": "involves",
           "object": "Alice Tan"
         },
         {
-          "subject": "Engineering Standup",
+          "subject": "Meeting 4",
           "relation": "involves",
           "object": "Ben Lim"
         },
         {
-          "subject": "Engineering Standup",
+          "subject": "Meeting 4",
           "relation": "involves",
           "object": "Chris Wong"
         },
         {
-          "subject": "Engineering Standup",
+          "subject": "Meeting 4",
           "relation": "involves",
           "object": "Diana Koh"
         },
         {
-          "subject": "Engineering Standup",
+          "subject": "Meeting 4",
           "relation": "involves",
           "object": "Ethan Goh"
+        },
+        {
+          "subject": "Action items",
+          "relation": "has_status",
+          "object": "Assigned"
+        },
+        {
+          "subject": "Meeting 4",
+          "relation": "scheduled_for",
+          "object": "11 March 2026"
         }
       ]
     }
