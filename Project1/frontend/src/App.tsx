@@ -168,19 +168,24 @@ function App() {
         </div>
 
         {/* Upload modal */}
-        <Modal show={showModal} onHide={() => setShowModal(false)}>
+        <Modal
+          show={showModal}
+          onHide={() => setShowModal(false)}
+          dialogClassName="modal-1000w"
+        >
           <Modal.Header closeButton>
             <Modal.Title>Upload Meeting Notes</Modal.Title>
           </Modal.Header>
+
           <Modal.Body>
             <Form.Control
               as="textarea"
-              rows={8}
-              placeholder="Paste meeting notes here…"
               value={notes}
               onChange={(e) => setNotes(e.target.value)}
+              style={{ height: "800px" }}
             />
           </Modal.Body>
+
           <Modal.Footer>
             <Button onClick={handleUpload}>Submit</Button>
           </Modal.Footer>

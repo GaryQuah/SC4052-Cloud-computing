@@ -1,7 +1,7 @@
 .general-gradient-bg {
   height: 100vh; /* full viewport height */
   width: 100%;
-  background: linear-gradient(-45deg, #ffffff, #d3f8ff, #e4d8ff);
+  background: linear-gradient(-45deg, #ffffff, #ffe9c7);
   background-size: 400% 400%;
   animation: gradientScroll 15s ease infinite;
   display: flex;
@@ -19,4 +19,9 @@
   100% {
     background-position: 0% 50%;
   }
+}
+
+.modal-1000w {
+  max-width: 1000px;
+  max-height: 1000px;
 }

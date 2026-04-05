@@ -56,9 +56,9 @@
           "object": "High Priority"
         },
         {
-          "subject": "Critical Login Timeout Issue",
-          "relation": "involves",
-          "object": "QA Team"
+          "subject": "Login Timeout Issue",
+          "relation": "has_status",
+          "object": "Under Investigation"
         },
         {
           "subject": "Regression Testing",
@@ -66,19 +66,24 @@
           "object": "Thursday"
         },
         {
-          "subject": "Current Release Deadline",
+          "subject": "Release Deadline",
           "relation": "has_status",
           "object": "At Risk"
         },
         {
-          "subject": "Buffer Time",
-          "relation": "depends_on",
-          "object": "API Issue Resolution"
+          "subject": "Release Deadline",
+          "relation": "scheduled_for",
+          "object": "5 April 2026"
         },
         {
-          "subject": "Priya Nair",
-          "relation": "suggested",
-          "object": "Improving Accessibility Compliance"
+          "subject": "API Issue Resolution",
+          "relation": "depends_on",
+          "object": "Buffer Time"
+        },
+        {
+          "subject": "Accessibility Compliance",
+          "relation": "suggested_by",
+          "object": "Priya Nair"
         },
         {
           "subject": "User Feedback Collection",
@@ -86,33 +91,48 @@
           "object": "Product Development Sync"
         },
         {
-          "subject": "Action Item: Reassess Timeline",
-          "relation": "action_item",
-          "object": "Next Meeting"
-        },
-        {
-          "subject": "Product Development Sync",
+          "subject": "Sprint Progress Review",
           "relation": "involves",
           "object": "John Tan"
         },
         {
-          "subject": "Product Development Sync",
+          "subject": "Feature Updates",
           "relation": "involves",
           "object": "Sarah Lim"
         },
         {
-          "subject": "Product Development Sync",
+          "subject": "Bug Tracking and QA Status",
+          "relation": "involves",
+          "object": "Marcus Lee"
+        },
+        {
+          "subject": "Timeline and Deliverables",
           "relation": "involves",
           "object": "Daniel Wong"
         },
         {
           "subject": "Product Development Sync",
-          "relation": "involves",
+          "relation": "attended_by",
+          "object": "John Tan"
+        },
+        {
+          "subject": "Product Development Sync",
+          "relation": "attended_by",
+          "object": "Sarah Lim"
+        },
+        {
+          "subject": "Product Development Sync",
+          "relation": "attended_by",
+          "object": "Daniel Wong"
+        },
+        {
+          "subject": "Product Development Sync",
+          "relation": "attended_by",
           "object": "Priya Nair"
         },
         {
           "subject": "Product Development Sync",
-          "relation": "involves",
+          "relation": "attended_by",
           "object": "Marcus Lee"
         }
       ]
@@ -148,64 +168,79 @@
           "object": "Meeting 2"
         },
         {
-          "subject": "Recruitment Pipeline",
+          "subject": "Recruitment pipeline updates",
           "relation": "discussed_in",
           "object": "Meeting 2"
         },
         {
-          "subject": "Employee Onboarding & Training Programs",
+          "subject": "Employee onboarding & training programs",
           "relation": "discussed_in",
           "object": "Meeting 2"
         },
         {
-          "subject": "HR Policy Review",
+          "subject": "HR policy review",
           "relation": "discussed_in",
           "object": "Meeting 2"
         },
         {
-          "subject": "Employee Engagement Initiatives",
+          "subject": "Employee engagement initiatives",
           "relation": "discussed_in",
           "object": "Meeting 2"
         },
         {
-          "subject": "Annual Leave Policy Updates",
+          "subject": "Recruitment team",
+          "relation": "owns",
+          "object": "Recruitment pipeline updates"
+        },
+        {
+          "subject": "Recruitment team",
+          "relation": "assigned_to",
+          "object": "Exploring new job boards"
+        },
+        {
+          "subject": "New onboarding schedule",
           "relation": "decided",
-          "object": "Meeting 2"
+          "object": "April hires"
         },
         {
-          "subject": "Remote Work Policy Revisions",
+          "subject": "Training program",
+          "relation": "scheduled_for",
+          "object": "Next month"
+        },
+        {
+          "subject": "Annual leave policy updates",
           "relation": "decided",
-          "object": "Meeting 2"
+          "object": "Approved changes"
         },
         {
-          "subject": "Quarterly Virtual Team-Building Event",
+          "subject": "Remote work policy revisions",
+          "relation": "decided",
+          "object": "Hybrid team arrangements"
+        },
+        {
+          "subject": "Quarterly virtual team-building event",
           "relation": "scheduled_for",
           "object": "Early May"
         },
         {
-          "subject": "Internal Referral Bonus Scheme",
+          "subject": "Employee survey results",
+          "relation": "reported_by",
+          "object": "Employee engagement initiatives"
+        },
+        {
+          "subject": "Internal referral bonus scheme",
           "relation": "discussed_in",
           "object": "Meeting 2"
         },
         {
-          "subject": "Hiring Tracker Dashboard",
+          "subject": "Hiring tracker dashboard",
           "relation": "suggested_by",
           "object": "Kevin Tan"
         },
         {
-          "subject": "Employee Survey Results",
-          "relation": "reported_by",
-          "object": "Meeting 2"
-        },
-        {
-          "subject": "New Onboarding Schedule",
-          "relation": "has_status",
-          "object": "Finalized"
-        },
-        {
-          "subject": "Training Program",
-          "relation": "has_status",
-          "object": "To be rolled out next month"
+          "subject": "Hiring tracker dashboard",
+          "relation": "related_to",
+          "object": "Management review"
         }
       ]
     },
@@ -221,27 +256,27 @@
         },
         {
           "subject": "Alice Tan",
-          "relation": "involves",
+          "relation": "attended",
           "object": "Meeting 3"
         },
         {
           "subject": "Ben Lim",
-          "relation": "involves",
+          "relation": "attended",
           "object": "Meeting 3"
         },
         {
           "subject": "Chris Wong",
-          "relation": "involves",
+          "relation": "attended",
           "object": "Meeting 3"
         },
         {
           "subject": "Diana Koh",
-          "relation": "involves",
+          "relation": "attended",
           "object": "Meeting 3"
         },
         {
           "subject": "Ethan Goh",
-          "relation": "involves",
+          "relation": "attended",
           "object": "Meeting 3"
         },
         {
@@ -262,17 +297,32 @@
         {
           "subject": "Team",
           "relation": "reported_by",
-          "object": "Meeting 3"
+          "object": "Progress Update"
+        },
+        {
+          "subject": "Progress Update",
+          "relation": "has_status",
+          "object": "steady progress"
+        },
+        {
+          "subject": "Delays",
+          "relation": "related_to",
+          "object": "dependencies"
+        },
+        {
+          "subject": "Delays",
+          "relation": "related_to",
+          "object": "coordination gaps"
         },
         {
           "subject": "Critical tasks",
           "relation": "decided",
-          "object": "Prioritization"
+          "object": "prioritization"
         },
         {
           "subject": "Action items",
           "relation": "assigned_to",
-          "object": "Team members"
+          "object": "team members"
         }
       ]
     },
@@ -335,16 +385,200 @@
           "subject": "Meeting 4",
           "relation": "involves",
           "object": "Ethan Goh"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Product development progress review",
+      "summary": "Meeting Notes Summary\n\nMeeting Title: Product Development Sync\nDate: 3 April 2026\nTime: 2:00 PM \u2013 3:00 PM\nLocation: Conference Room B / Zoom\n\nAttendees:\n\nRachel Lee\nJohn Tan\nSarah Sim\nMark Chia\nOlivia Ng\n\nAgenda:\n\nProduct roadmap review\nFeature development updates\nResource allocation\nUpcoming milestones\n\nKey Discussion Points\n\nProduct Roadmap Review\nTeam reviewed the product roadmap for Q2 2026.\nAdjustments made to align with market feedback and user requirements.\nFeature Development Updates\nSarah presented updates on the new mobile app feature. Some progress was made, but integration with the backend is slower than expected.\nJohn reported a delay in the UI design due to resource constraints.\nResource Allocation\nDiscussion about the need to reassign team members to balance workloads.\nMark suggested bringing in a temporary contractor for UI development to meet deadlines.\nUpcoming Milestones\nAgreed to set the next internal demo for the end of April.\nProduct release is targeted for mid-June.",
+      "triples": [
+        {
+          "subject": "Product Roadmap Review",
+          "relation": "discussed_in",
+          "object": "Meeting 5"
         },
         {
-          "subject": "Action items",
-          "relation": "has_status",
-          "object": "Assigned"
+          "subject": "Feature Development Updates",
+          "relation": "discussed_in",
+          "object": "Meeting 5"
         },
         {
-          "subject": "Meeting 4",
+          "subject": "Resource Allocation",
+          "relation": "discussed_in",
+          "object": "Meeting 5"
+        },
+        {
+          "subject": "Upcoming Milestones",
+          "relation": "discussed_in",
+          "object": "Meeting 5"
+        },
+        {
+          "subject": "Product Roadmap",
+          "relation": "reviewed_by",
+          "object": "Team"
+        },
+        {
+          "subject": "New Mobile App Feature",
+          "relation": "reported_by",
+          "object": "Sarah Sim"
+        },
+        {
+          "subject": "UI Design",
+          "relation": "reported_by",
+          "object": "John Tan"
+        },
+        {
+          "subject": "UI Development",
+          "relation": "assigned_to",
+          "object": "Temporary Contractor"
+        },
+        {
+          "subject": "Internal Demo",
           "relation": "scheduled_for",
-          "object": "11 March 2026"
+          "object": "End of April"
+        },
+        {
+          "subject": "Product Release",
+          "relation": "scheduled_for",
+          "object": "Mid-June"
+        },
+        {
+          "subject": "Meeting 5",
+          "relation": "attended_by",
+          "object": "Rachel Lee"
+        },
+        {
+          "subject": "Meeting 5",
+          "relation": "attended_by",
+          "object": "John Tan"
+        },
+        {
+          "subject": "Meeting 5",
+          "relation": "attended_by",
+          "object": "Sarah Sim"
+        },
+        {
+          "subject": "Meeting 5",
+          "relation": "attended_by",
+          "object": "Mark Chia"
+        },
+        {
+          "subject": "Meeting 5",
+          "relation": "attended_by",
+          "object": "Olivia Ng"
+        },
+        {
+          "subject": "New Mobile App Feature",
+          "relation": "depends_on",
+          "object": "Backend Integration"
+        },
+        {
+          "subject": "UI Design",
+          "relation": "depends_on",
+          "object": "Resource Allocation"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Marketing strategy alignment meeting",
+      "summary": "Meeting Notes Summary\n\nMeeting Title: Marketing Strategy Alignment\nDate: 8 April 2026\nTime: 10:00 AM \u2013 11:15 AM\nLocation: Meeting Room A / Microsoft Teams\n\nAttendees:\n\nDaniel Wong\nMelissa Koh\nAaron Lim\nPriya Nair\nKevin Goh\n\nAgenda:\n\nCampaign performance review\nUpcoming marketing initiatives\nBudget planning\nCross-team collaboration\n\nKey Discussion Points\n\n1. Campaign Performance Review\nThe team analyzed the performance of recent digital campaigns. Social media engagement increased by 15%, while email campaign open rates remained stable. Identified areas for improvement in conversion rates.\n\n2. Upcoming Marketing Initiatives\nMelissa presented plans for a new influencer marketing campaign targeting younger audiences. The team discussed content themes and platform selection, with a focus on short-form video content.\n\n3. Budget Planning\nDiscussion on reallocating budget towards higher-performing channels such as paid social and search ads. Kevin highlighted the need to monitor ROI closely before increasing spend.\n\n4. Cross-Team Collaboration\nPriya emphasized better coordination with the product team to align marketing messaging with upcoming feature releases. Agreed to set up bi-weekly sync meetings.",
+      "triples": [
+        {
+          "subject": "Daniel Wong",
+          "relation": "attended",
+          "object": "Marketing Strategy Alignment meeting"
+        },
+        {
+          "subject": "Melissa Koh",
+          "relation": "attended",
+          "object": "Marketing Strategy Alignment meeting"
+        },
+        {
+          "subject": "Aaron Lim",
+          "relation": "attended",
+          "object": "Marketing Strategy Alignment meeting"
+        },
+        {
+          "subject": "Priya Nair",
+          "relation": "attended",
+          "object": "Marketing Strategy Alignment meeting"
+        },
+        {
+          "subject": "Kevin Goh",
+          "relation": "attended",
+          "object": "Marketing Strategy Alignment meeting"
+        },
+        {
+          "subject": "Campaign performance review",
+          "relation": "discussed_in",
+          "object": "Marketing Strategy Alignment meeting"
+        },
+        {
+          "subject": "Upcoming marketing initiatives",
+          "relation": "discussed_in",
+          "object": "Marketing Strategy Alignment meeting"
+        },
+        {
+          "subject": "Budget planning",
+          "relation": "discussed_in",
+          "object": "Marketing Strategy Alignment meeting"
+        },
+        {
+          "subject": "Cross-team collaboration",
+          "relation": "discussed_in",
+          "object": "Marketing Strategy Alignment meeting"
+        },
+        {
+          "subject": "Influencer marketing campaign",
+          "relation": "presented_by",
+          "object": "Melissa Koh"
+        },
+        {
+          "subject": "Bi-weekly sync meetings",
+          "relation": "decided",
+          "object": "Marketing Strategy Alignment meeting"
+        },
+        {
+          "subject": "Marketing Strategy Alignment meeting",
+          "relation": "involves",
+          "object": "Daniel Wong"
+        },
+        {
+          "subject": "Marketing Strategy Alignment meeting",
+          "relation": "involves",
+          "object": "Melissa Koh"
+        },
+        {
+          "subject": "Marketing Strategy Alignment meeting",
+          "relation": "involves",
+          "object": "Aaron Lim"
+        },
+        {
+          "subject": "Marketing Strategy Alignment meeting",
+          "relation": "involves",
+          "object": "Priya Nair"
+        },
+        {
+          "subject": "Marketing Strategy Alignment meeting",
+          "relation": "involves",
+          "object": "Kevin Goh"
+        },
+        {
+          "subject": "Melissa Koh",
+          "relation": "reported_by",
+          "object": "Influencer marketing campaign"
+        },
+        {
+          "subject": "Kevin Goh",
+          "relation": "reported_by",
+          "object": "Budget planning"
+        },
+        {
+          "subject": "Priya Nair",
+          "relation": "reported_by",
+          "object": "Cross-team collaboration"
         }
       ]
     }

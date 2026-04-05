@@ -272,12 +272,16 @@ def process_load_meetings(notes: Optional[str] = None):
     meetings_db = []
     G.clear()
     files = sorted(f for f in os.listdir(DATA_DIR) if f.endswith(".txt"))
-    for i, file in enumerate(files, start=1):
+    for file in files:
+        try:
+            meeting_id = int(file.split("_")[1].split(".")[0])
+        except (ValueError, IndexError):
+            continue
         with open(os.path.join(DATA_DIR, file), encoding="utf-8", errors="ignore") as f:
             text = f.read()
-        triples = extract_triples(text, i)
+        triples = extract_triples(text, meeting_id)
         meetings_db.append({
-            "id": i,
+            "id": meeting_id,
             "title": extract_title(text),
             "summary": text,
             "triples": triples,
