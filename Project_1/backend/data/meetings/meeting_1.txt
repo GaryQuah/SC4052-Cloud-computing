@@ -18,32 +18,36 @@ Bug tracking and QA status
 Timeline and deliverables
 Any other business
 Key Discussion Points
-
 1. Sprint Progress
-
-Engineering team reported ~75% completion of current sprint tasks.
-Slight delay due to integration issues with payment API.
-Backend services are stable; frontend still undergoing UI refinements.
-
+Daniel Wong reported that the engineering team has achieved approximately 75% completion of current sprint tasks.
+He mentioned that integration issues with the payment API caused delays, specifically highlighting problems with authentication tokens and inconsistent response formats from the API provider.
+Daniel Wong added that backend services are now stable and fully deployed in staging, but the frontend team is still working on UI refinements, particularly around responsiveness and loading states.
+Sarah Lim asked whether the API issues could affect future scalability, to which Daniel responded that a fallback mechanism is being explored.
 2. Feature Updates
-
-New user onboarding flow has been implemented and is ready for internal testing.
-Dashboard analytics feature is still in development, expected completion by next sprint.
-Decision made to postpone social sharing feature to next release phase.
-
+Sarah Lim shared that the new user onboarding flow has been fully implemented and is ready for internal testing, emphasizing improvements in user guidance and reduced drop-off rates.
+Priya Nair mentioned that the onboarding UI was designed with a step-by-step progress indicator to improve user clarity.
+Daniel Wong noted that the dashboard analytics feature is still under development due to dependencies on backend data aggregation, with expected completion by the next sprint.
+The team collectively agreed to postpone the social sharing feature to the next release phase to prioritize core functionality and stability.
 3. Bug Tracking & QA
-
-QA team identified 12 new bugs, 5 marked as high priority.
-Critical issue with login timeout under investigation.
-Regression testing scheduled for Thursday.
-
+Marcus Lee reported that the QA team identified 12 new bugs, with 5 classified as high priority.
+He specifically highlighted a critical login timeout issue, where users are unexpectedly logged out during active sessions.
+Daniel Wong responded that the issue may be linked to session management logic and is currently under investigation.
+Marcus Lee confirmed that regression testing is scheduled for Thursday, focusing on authentication, onboarding, and payment workflows.
+Sarah Lim emphasized the importance of resolving high-priority bugs before release to maintain product reliability.
 4. Timeline & Deliverables
-
-Current release deadline remains 5 April 2026, but flagged as “at risk.”
-Buffer time may be required depending on API issue resolution.
-Team agreed to reassess timeline in next meeting.
-
+John Tan reiterated that the current release deadline (5 April 2026) remains unchanged but is now flagged as “at risk.”
+He noted that buffer time may be required, depending on how quickly the payment API issues are resolved.
+Daniel Wong mentioned that if integration stabilizes within the next few days, the team can still recover some lost time.
+The team agreed to reassess the timeline in the next meeting, with a clearer view of progress and blockers.
 5. Other Business
-
-Priya suggested improving accessibility compliance (WCAG standards).
-Discussion on adding user feedback collection post-launch.
+Priya Nair suggested improving accessibility compliance (WCAG standards), including better color contrast, keyboard navigation, and screen reader support.
+She proposed conducting a quick accessibility audit before release.
+Sarah Lim supported the idea but suggested prioritizing critical accessibility fixes first.
+John Tan raised the idea of adding a user feedback collection mechanism post-launch, such as in-app surveys or feedback forms.
+The team agreed this would be valuable for guiding future iterations.
+Action Items
+Daniel Wong to resolve payment API integration issues and investigate login timeout bug.
+Marcus Lee to proceed with regression testing on Thursday and provide bug status updates.
+Priya Nair to draft accessibility improvement recommendations.
+Sarah Lim to coordinate internal testing for onboarding flow.
+John Tan to monitor timeline risks and prepare contingency plans.

@@ -182,7 +182,7 @@ function App() {
               as="textarea"
               value={notes}
               onChange={(e) => setNotes(e.target.value)}
-              style={{ height: "800px" }}
+              style={{ height: "400px" }}
             />
           </Modal.Body>
 

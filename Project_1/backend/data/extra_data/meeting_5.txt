@@ -1,0 +1,45 @@
+Meeting Notes Summary
+
+Meeting Title: Product Development Sync
+Date: 3 April 2026
+Time: 2:00 PM – 3:00 PM
+Location: Conference Room B / Zoom
+
+Attendees
+Rachel Lee
+John Tan
+Sarah Sim
+Mark Chia
+Olivia Ng
+Agenda
+Product roadmap review
+Feature development updates
+Resource allocation
+Upcoming milestones
+Key Discussion Points
+1. Product Roadmap Review
+Rachel Lee led the discussion on the Q2 2026 product roadmap, outlining key priorities and strategic goals.
+The team reviewed planned features and timelines, making adjustments based on recent market feedback and user requirements.
+Olivia Ng highlighted the importance of aligning roadmap priorities with customer needs and competitive positioning.
+It was agreed that flexibility is required to accommodate changes as new insights emerge.
+2. Feature Development Updates
+Sarah Sim presented updates on the new mobile app feature, noting that while development is progressing, integration with the backend is slower than expected due to API limitations and testing delays.
+She mentioned that additional coordination with the backend team is required to resolve integration bottlenecks.
+John Tan reported a delay in UI design, primarily due to resource constraints and competing priorities.
+Mark Chia suggested breaking down UI tasks into smaller components to improve parallel development and speed up delivery.
+3. Resource Allocation
+The team discussed the need to reassign team members to better balance workloads across frontend and backend teams.
+Mark Chia proposed bringing in a temporary contractor for UI development to help meet deadlines and reduce pressure on the current team.
+Rachel Lee supported the idea, noting that it could help accelerate delivery without overloading existing resources.
+Olivia Ng raised the need to ensure proper onboarding and knowledge transfer if a contractor is hired.
+4. Upcoming Milestones
+The team agreed to schedule the next internal demo at the end of April, allowing time to showcase progress and gather feedback.
+Rachel Lee confirmed that the product release is targeted for mid-June, though this is dependent on resolving current delays.
+Sarah Sim noted that achieving this timeline will require improved coordination and faster integration cycles.
+The team agreed to closely monitor progress and adjust plans if necessary.
+Action Items
+Rachel Lee to finalize updated roadmap and ensure alignment with stakeholders.
+Sarah Sim to coordinate with backend team to resolve integration issues.
+John Tan to address UI design delays and reallocate resources where needed.
+Mark Chia to explore hiring a temporary UI contractor and break down UI tasks.
+Olivia Ng to ensure smooth onboarding and alignment for any new resources.

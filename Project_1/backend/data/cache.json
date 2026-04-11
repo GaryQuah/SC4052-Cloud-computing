@@ -3,582 +3,653 @@
     {
       "id": 1,
       "title": "Product development progress review",
-      "summary": "Meeting Notes Summary\n\nMeeting Title: Product Development Sync\nDate: 25 March 2026\nTime: 10:00 AM \u2013 11:15 AM\nLocation: Zoom / Conference Room B\n\nAttendees\nJohn Tan (Project Manager)\nSarah Lim (Product Lead)\nDaniel Wong (Engineering Lead)\nPriya Nair (UX Designer)\nMarcus Lee (QA Lead)\nAgenda\nSprint progress review\nFeature updates\nBug tracking and QA status\nTimeline and deliverables\nAny other business\nKey Discussion Points\n\n1. Sprint Progress\n\nEngineering team reported ~75% completion of current sprint tasks.\nSlight delay due to integration issues with payment API.\nBackend services are stable; frontend still undergoing UI refinements.\n\n2. Feature Updates\n\nNew user onboarding flow has been implemented and is ready for internal testing.\nDashboard analytics feature is still in development, expected completion by next sprint.\nDecision made to postpone social sharing feature to next release phase.\n\n3. Bug Tracking & QA\n\nQA team identified 12 new bugs, 5 marked as high priority.\nCritical issue with login timeout under investigation.\nRegression testing scheduled for Thursday.\n\n4. Timeline & Deliverables\n\nCurrent release deadline remains 5 April 2026, but flagged as \u201cat risk.\u201d\nBuffer time may be required depending on API issue resolution.\nTeam agreed to reassess timeline in next meeting.\n\n5. Other Business\n\nPriya suggested improving accessibility compliance (WCAG standards).\nDiscussion on adding user feedback collection post-launch.",
+      "summary": "Meeting Notes Summary\n\nMeeting Title: Product Development Sync\nDate: 25 March 2026\nTime: 10:00 AM \u2013 11:15 AM\nLocation: Zoom / Conference Room B\n\nAttendees\nJohn Tan (Project Manager)\nSarah Lim (Product Lead)\nDaniel Wong (Engineering Lead)\nPriya Nair (UX Designer)\nMarcus Lee (QA Lead)\nAgenda\nSprint progress review\nFeature updates\nBug tracking and QA status\nTimeline and deliverables\nAny other business\nKey Discussion Points\n1. Sprint Progress\nDaniel Wong reported that the engineering team has achieved approximately 75% completion of current sprint tasks.\nHe mentioned that integration issues with the payment API caused delays, specifically highlighting problems with authentication tokens and inconsistent response formats from the API provider.\nDaniel Wong added that backend services are now stable and fully deployed in staging, but the frontend team is still working on UI refinements, particularly around responsiveness and loading states.\nSarah Lim asked whether the API issues could affect future scalability, to which Daniel responded that a fallback mechanism is being explored.\n2. Feature Updates\nSarah Lim shared that the new user onboarding flow has been fully implemented and is ready for internal testing, emphasizing improvements in user guidance and reduced drop-off rates.\nPriya Nair mentioned that the onboarding UI was designed with a step-by-step progress indicator to improve user clarity.\nDaniel Wong noted that the dashboard analytics feature is still under development due to dependencies on backend data aggregation, with expected completion by the next sprint.\nThe team collectively agreed to postpone the social sharing feature to the next release phase to prioritize core functionality and stability.\n3. Bug Tracking & QA\nMarcus Lee reported that the QA team identified 12 new bugs, with 5 classified as high priority.\nHe specifically highlighted a critical login timeout issue, where users are unexpectedly logged out during active sessions.\nDaniel Wong responded that the issue may be linked to session management logic and is currently under investigation.\nMarcus Lee confirmed that regression testing is scheduled for Thursday, focusing on authentication, onboarding, and payment workflows.\nSarah Lim emphasized the importance of resolving high-priority bugs before release to maintain product reliability.\n4. Timeline & Deliverables\nJohn Tan reiterated that the current release deadline (5 April 2026) remains unchanged but is now flagged as \u201cat risk.\u201d\nHe noted that buffer time may be required, depending on how quickly the payment API issues are resolved.\nDaniel Wong mentioned that if integration stabilizes within the next few days, the team can still recover some lost time.\nThe team agreed to reassess the timeline in the next meeting, with a clearer view of progress and blockers.\n5. Other Business\nPriya Nair suggested improving accessibility compliance (WCAG standards), including better color contrast, keyboard navigation, and screen reader support.\nShe proposed conducting a quick accessibility audit before release.\nSarah Lim supported the idea but suggested prioritizing critical accessibility fixes first.\nJohn Tan raised the idea of adding a user feedback collection mechanism post-launch, such as in-app surveys or feedback forms.\nThe team agreed this would be valuable for guiding future iterations.\nAction Items\nDaniel Wong to resolve payment API integration issues and investigate login timeout bug.\nMarcus Lee to proceed with regression testing on Thursday and provide bug status updates.\nPriya Nair to draft accessibility improvement recommendations.\nSarah Lim to coordinate internal testing for onboarding flow.\nJohn Tan to monitor timeline risks and prepare contingency plans.",
       "triples": [
         {
-          "subject": "Sprint Progress",
-          "relation": "discussed_in",
-          "object": "Product Development Sync"
+          "subject": "Daniel Wong",
+          "relation": "reported",
+          "object": "sprint progress"
         },
         {
-          "subject": "Engineering Team",
-          "relation": "reported_by",
-          "object": "Daniel Wong"
+          "subject": "Daniel Wong",
+          "relation": "highlighted",
+          "object": "integration issues with payment API"
         },
         {
-          "subject": "Payment API Integration",
-          "relation": "depends_on",
-          "object": "Sprint Progress"
+          "subject": "integration issues with payment API",
+          "relation": "caused",
+          "object": "delays"
         },
         {
-          "subject": "Backend Services",
-          "relation": "has_status",
-          "object": "Stable"
+          "subject": "Daniel Wong",
+          "relation": "added",
+          "object": "information about backend services"
         },
         {
-          "subject": "Frontend Services",
-          "relation": "has_status",
-          "object": "Undergoing UI Refinements"
+          "subject": "backend services",
+          "relation": "are",
+          "object": "stable and fully deployed in staging"
         },
         {
-          "subject": "New User Onboarding Flow",
-          "relation": "decided",
-          "object": "Ready for Internal Testing"
+          "subject": "frontend team",
+          "relation": "is working on",
+          "object": "UI refinements"
         },
         {
-          "subject": "Dashboard Analytics Feature",
-          "relation": "has_status",
-          "object": "In Development"
+          "subject": "Sarah Lim",
+          "relation": "asked",
+          "object": "question about API issues and future scalability"
         },
         {
-          "subject": "Social Sharing Feature",
-          "relation": "decided",
-          "object": "Postponed to Next Release"
+          "subject": "Daniel Wong",
+          "relation": "responded to",
+          "object": "Sarah Lim's question"
         },
         {
-          "subject": "QA Team",
-          "relation": "reported_by",
-          "object": "Marcus Lee"
+          "subject": "Daniel Wong",
+          "relation": "mentioned",
+          "object": "fallback mechanism"
         },
         {
-          "subject": "Bugs",
-          "relation": "has_priority",
-          "object": "High Priority"
+          "subject": "Sarah Lim",
+          "relation": "shared",
+          "object": "new user onboarding flow"
         },
         {
-          "subject": "Login Timeout Issue",
-          "relation": "has_status",
-          "object": "Under Investigation"
+          "subject": "new user onboarding flow",
+          "relation": "has been",
+          "object": "fully implemented"
         },
         {
-          "subject": "Regression Testing",
-          "relation": "scheduled_for",
+          "subject": "Priya Nair",
+          "relation": "mentioned",
+          "object": "onboarding UI design"
+        },
+        {
+          "subject": "onboarding UI",
+          "relation": "was designed with",
+          "object": "step-by-step progress indicator"
+        },
+        {
+          "subject": "Daniel Wong",
+          "relation": "noted",
+          "object": "dashboard analytics feature status"
+        },
+        {
+          "subject": "dashboard analytics feature",
+          "relation": "is",
+          "object": "under development"
+        },
+        {
+          "subject": "team",
+          "relation": "agreed to",
+          "object": "postpone social sharing feature"
+        },
+        {
+          "subject": "Marcus Lee",
+          "relation": "reported",
+          "object": "bug tracking and QA status"
+        },
+        {
+          "subject": "QA team",
+          "relation": "identified",
+          "object": "12 new bugs"
+        },
+        {
+          "subject": "Marcus Lee",
+          "relation": "highlighted",
+          "object": "critical login timeout issue"
+        },
+        {
+          "subject": "Daniel Wong",
+          "relation": "responded to",
+          "object": "login timeout issue"
+        },
+        {
+          "subject": "login timeout issue",
+          "relation": "may be linked to",
+          "object": "session management logic"
+        },
+        {
+          "subject": "Marcus Lee",
+          "relation": "confirmed",
+          "object": "regression testing schedule"
+        },
+        {
+          "subject": "regression testing",
+          "relation": "is scheduled for",
           "object": "Thursday"
         },
         {
-          "subject": "Release Deadline",
-          "relation": "has_status",
-          "object": "At Risk"
+          "subject": "Sarah Lim",
+          "relation": "emphasized",
+          "object": "importance of resolving high-priority bugs"
         },
         {
-          "subject": "Release Deadline",
-          "relation": "scheduled_for",
-          "object": "5 April 2026"
+          "subject": "John Tan",
+          "relation": "reiterated",
+          "object": "current release deadline"
         },
         {
-          "subject": "API Issue Resolution",
-          "relation": "depends_on",
-          "object": "Buffer Time"
+          "subject": "current release deadline",
+          "relation": "remains",
+          "object": "unchanged"
         },
         {
-          "subject": "Accessibility Compliance",
-          "relation": "suggested_by",
-          "object": "Priya Nair"
+          "subject": "John Tan",
+          "relation": "noted",
+          "object": "need for buffer time"
         },
         {
-          "subject": "User Feedback Collection",
-          "relation": "discussed_in",
-          "object": "Product Development Sync"
+          "subject": "Daniel Wong",
+          "relation": "mentioned",
+          "object": "potential for recovering lost time"
         },
         {
-          "subject": "Sprint Progress Review",
-          "relation": "involves",
-          "object": "John Tan"
+          "subject": "team",
+          "relation": "agreed to",
+          "object": "reassess timeline in next meeting"
         },
         {
-          "subject": "Feature Updates",
-          "relation": "involves",
-          "object": "Sarah Lim"
+          "subject": "Priya Nair",
+          "relation": "suggested",
+          "object": "improving accessibility compliance"
         },
         {
-          "subject": "Bug Tracking and QA Status",
-          "relation": "involves",
-          "object": "Marcus Lee"
+          "subject": "Priya Nair",
+          "relation": "proposed",
+          "object": "conducting accessibility audit"
         },
         {
-          "subject": "Timeline and Deliverables",
-          "relation": "involves",
-          "object": "Daniel Wong"
+          "subject": "Sarah Lim",
+          "relation": "supported",
+          "object": "Priya Nair's idea"
         },
         {
-          "subject": "Product Development Sync",
-          "relation": "attended_by",
-          "object": "John Tan"
+          "subject": "Sarah Lim",
+          "relation": "suggested",
+          "object": "prioritizing critical accessibility fixes"
         },
         {
-          "subject": "Product Development Sync",
-          "relation": "attended_by",
-          "object": "Sarah Lim"
+          "subject": "John Tan",
+          "relation": "raised",
+          "object": "idea of adding user feedback collection mechanism"
         },
         {
-          "subject": "Product Development Sync",
-          "relation": "attended_by",
-          "object": "Daniel Wong"
+          "subject": "team",
+          "relation": "agreed",
+          "object": "value of user feedback collection mechanism"
         },
         {
-          "subject": "Product Development Sync",
-          "relation": "attended_by",
-          "object": "Priya Nair"
+          "subject": "Daniel Wong",
+          "relation": "assigned to",
+          "object": "resolving payment API integration issues"
         },
         {
-          "subject": "Product Development Sync",
-          "relation": "attended_by",
-          "object": "Marcus Lee"
+          "subject": "Daniel Wong",
+          "relation": "assigned to",
+          "object": "investigating login timeout bug"
+        },
+        {
+          "subject": "Marcus Lee",
+          "relation": "assigned to",
+          "object": "regression testing"
+        },
+        {
+          "subject": "Marcus Lee",
+          "relation": "assigned to",
+          "object": "providing bug status updates"
+        },
+        {
+          "subject": "Priya Nair",
+          "relation": "assigned to",
+          "object": "drafting accessibility improvement recommendations"
+        },
+        {
+          "subject": "Sarah Lim",
+          "relation": "assigned to",
+          "object": "coordinating internal testing for onboarding flow"
+        },
+        {
+          "subject": "John Tan",
+          "relation": "assigned to",
+          "object": "monitoring timeline risks"
         }
       ]
     },
     {
       "id": 2,
-      "title": "HR Policy and Recruitment Update",
-      "summary": "Meeting Notes Summary\n\nMeeting Title: HR Policy & Recruitment Update\nDate: 25 March 2026\nTime: 2:00 PM \u2013 3:15 PM\nLocation: Conference Room A\n\nAttendees\nAmanda Chen (HR Manager)\nKevin Tan (Recruitment Lead)\nLisa Wong (Employee Engagement Specialist)\nRavi Kumar (HR Analyst)\nEmily Lim (Training Coordinator)\nAgenda\nRecruitment pipeline updates\nEmployee onboarding & training programs\nHR policy review\nEmployee engagement initiatives\nAny other business\nKey Discussion Points\n\n1. Recruitment Pipeline\n\nCurrent open positions: 8 roles across Engineering, Sales, and Marketing.\n3 candidates shortlisted for Engineering roles; interviews scheduled next week.\nRecruitment team exploring new job boards to attract diverse candidates.\n\n2. Onboarding & Training\n\nNew onboarding schedule finalized for April hires.\nTraining program for soft skills and compliance to be rolled out next month.\nFeedback from previous onboarding sessions showed high satisfaction, but suggested more role-specific mentorship.\n\n3. HR Policy Review\n\nAnnual leave policy updates discussed; approved changes to be communicated by email.\nRemote work policy revisions finalized for hybrid team arrangements.\n\n4. Employee Engagement\n\nPlanning a quarterly virtual team-building event in early May.\nEmployee survey results indicate interest in wellness programs and flexible hours.\n\n5. Other Business\n\nDiscussion on implementing an internal referral bonus scheme.\nKevin suggested a hiring tracker dashboard for management review.",
+      "title": "HR policy and recruitment update",
+      "summary": "Meeting Notes Summary\n\nMeeting Title: HR Policy & Recruitment Update\nDate: 25 March 2026\nTime: 2:00 PM \u2013 3:15 PM\nLocation: Conference Room A\n\nAttendees\nAmanda Chen (HR Manager)\nKevin Tan (Recruitment Lead)\nLisa Wong (Employee Engagement Specialist)\nRavi Kumar (HR Analyst)\nEmily Lim (Training Coordinator)\nAgenda\nRecruitment pipeline updates\nEmployee onboarding & training programs\nHR policy review\nEmployee engagement initiatives\nAny other business\nKey Discussion Points\n1. Recruitment Pipeline\nKevin Tan reported that there are currently 8 open positions across Engineering, Sales, and Marketing.\nHe mentioned that 3 candidates have been shortlisted for Engineering roles, with interviews scheduled for the following week.\nKevin Tan added that the recruitment team is exploring new job boards and platforms, particularly those targeting diverse talent pools, to improve candidate quality and inclusivity.\nAmanda Chen asked about time-to-hire metrics, and Ravi Kumar noted that the average hiring cycle has increased slightly due to more rigorous screening processes.\n2. Onboarding & Training\nEmily Lim shared that the new onboarding schedule for April hires has been finalized, with a structured 2-week program covering company orientation, tools training, and team introductions.\nShe mentioned that a training program focused on soft skills and compliance (e.g., workplace ethics, data protection) will be rolled out next month.\nLisa Wong highlighted that feedback from previous onboarding sessions showed high satisfaction overall, but employees requested more role-specific mentorship and hands-on guidance.\nAmanda Chen suggested assigning team mentors or buddies to new hires to improve integration.\n3. HR Policy Review\nAmanda Chen led the discussion on annual leave policy updates, confirming that proposed changes have been approved and will be communicated via email to all staff.\nRavi Kumar noted that the updates aim to provide greater flexibility in leave planning while maintaining operational coverage.\nThe team also finalized revisions to the remote work policy, supporting a hybrid work arrangement with clearer guidelines on in-office expectations and remote eligibility.\nKevin Tan raised a concern about consistency across departments, and Amanda agreed to provide standardized guidelines.\n4. Employee Engagement\nLisa Wong shared plans for a quarterly virtual team-building event scheduled for early May, aimed at improving cross-team collaboration.\nShe mentioned that recent employee survey results indicate strong interest in wellness programs, such as mental health initiatives and fitness activities.\nRavi Kumar added that employees also expressed a preference for more flexible working hours, especially for teams working across different time zones.\nAmanda Chen suggested piloting a flexible hours framework in selected departments before company-wide adoption.\n5. Other Business\nThe team discussed implementing an internal referral bonus scheme to encourage employees to recommend qualified candidates.\nKevin Tan suggested developing a hiring tracker dashboard for management to monitor recruitment progress, candidate stages, and hiring metrics in real time.\nRavi Kumar offered to support this by providing data analytics and reporting structures.\nEmily Lim briefly mentioned the possibility of aligning onboarding content with recruitment insights to ensure smoother transitions for new hires.\nAction Items\nKevin Tan to proceed with Engineering candidate interviews and explore additional recruitment platforms.\nEmily Lim to finalize onboarding materials and prepare training rollout for next month.\nAmanda Chen to communicate updated HR policies and define hybrid work guidelines.\nLisa Wong to organize the May team-building event and propose wellness initiatives.\nRavi Kumar to support development of the hiring tracker dashboard and provide hiring analytics.",
       "triples": [
         {
-          "subject": "Amanda Chen",
-          "relation": "attended",
-          "object": "Meeting 2"
+          "subject": "Kevin Tan",
+          "relation": "reported_on",
+          "object": "recruitment pipeline updates"
         },
         {
           "subject": "Kevin Tan",
-          "relation": "attended",
-          "object": "Meeting 2"
+          "relation": "mentioned",
+          "object": "shortlisted candidates for Engineering roles"
         },
         {
-          "subject": "Lisa Wong",
-          "relation": "attended",
-          "object": "Meeting 2"
+          "subject": "Kevin Tan",
+          "relation": "added",
+          "object": "new job boards and platforms for recruitment"
+        },
+        {
+          "subject": "Amanda Chen",
+          "relation": "asked_about",
+          "object": "time-to-hire metrics"
         },
         {
           "subject": "Ravi Kumar",
-          "relation": "attended",
-          "object": "Meeting 2"
+          "relation": "noted",
+          "object": "average hiring cycle increase"
         },
         {
           "subject": "Emily Lim",
-          "relation": "attended",
-          "object": "Meeting 2"
+          "relation": "shared",
+          "object": "new onboarding schedule for April hires"
         },
         {
-          "subject": "Recruitment pipeline updates",
-          "relation": "discussed_in",
-          "object": "Meeting 2"
+          "subject": "Emily Lim",
+          "relation": "mentioned",
+          "object": "training program for soft skills and compliance"
         },
         {
-          "subject": "Employee onboarding & training programs",
-          "relation": "discussed_in",
-          "object": "Meeting 2"
+          "subject": "Lisa Wong",
+          "relation": "highlighted",
+          "object": "feedback from previous onboarding sessions"
         },
         {
-          "subject": "HR policy review",
-          "relation": "discussed_in",
-          "object": "Meeting 2"
+          "subject": "Amanda Chen",
+          "relation": "suggested",
+          "object": "assigning team mentors or buddies to new hires"
         },
         {
-          "subject": "Employee engagement initiatives",
-          "relation": "discussed_in",
-          "object": "Meeting 2"
+          "subject": "Amanda Chen",
+          "relation": "led_discussion_on",
+          "object": "annual leave policy updates"
         },
         {
-          "subject": "Recruitment team",
-          "relation": "owns",
-          "object": "Recruitment pipeline updates"
+          "subject": "Ravi Kumar",
+          "relation": "noted",
+          "object": "aim of leave policy updates"
         },
         {
-          "subject": "Recruitment team",
+          "subject": "Amanda Chen",
+          "relation": "confirmed",
+          "object": "approval of proposed leave policy changes"
+        },
+        {
+          "subject": "The team",
+          "relation": "finalized",
+          "object": "revisions to remote work policy"
+        },
+        {
+          "subject": "Kevin Tan",
+          "relation": "raised_concern_about",
+          "object": "consistency across departments"
+        },
+        {
+          "subject": "Amanda Chen",
+          "relation": "agreed_to",
+          "object": "providing standardized guidelines"
+        },
+        {
+          "subject": "Lisa Wong",
+          "relation": "shared",
+          "object": "plans for quarterly virtual team-building event"
+        },
+        {
+          "subject": "Lisa Wong",
+          "relation": "mentioned",
+          "object": "recent employee survey results"
+        },
+        {
+          "subject": "Ravi Kumar",
+          "relation": "added",
+          "object": "employee preference for flexible working hours"
+        },
+        {
+          "subject": "Amanda Chen",
+          "relation": "suggested",
+          "object": "piloting flexible hours framework"
+        },
+        {
+          "subject": "The team",
+          "relation": "discussed",
+          "object": "internal referral bonus scheme"
+        },
+        {
+          "subject": "Kevin Tan",
+          "relation": "suggested",
+          "object": "hiring tracker dashboard"
+        },
+        {
+          "subject": "Ravi Kumar",
+          "relation": "offered_to",
+          "object": "support for hiring tracker dashboard development"
+        },
+        {
+          "subject": "Emily Lim",
+          "relation": "mentioned",
+          "object": "possibility of aligning onboarding content with recruitment insights"
+        },
+        {
+          "subject": "Kevin Tan",
           "relation": "assigned_to",
-          "object": "Exploring new job boards"
+          "object": "Engineering candidate interviews and recruitment platform exploration"
         },
         {
-          "subject": "New onboarding schedule",
-          "relation": "decided",
-          "object": "April hires"
+          "subject": "Emily Lim",
+          "relation": "assigned_to",
+          "object": "onboarding materials finalization and training rollout"
         },
         {
-          "subject": "Training program",
-          "relation": "scheduled_for",
-          "object": "Next month"
+          "subject": "Amanda Chen",
+          "relation": "assigned_to",
+          "object": "communication of updated HR policies and hybrid work guidelines"
         },
         {
-          "subject": "Annual leave policy updates",
-          "relation": "decided",
-          "object": "Approved changes"
+          "subject": "Lisa Wong",
+          "relation": "assigned_to",
+          "object": "May team-building event organization and wellness initiatives proposal"
         },
         {
-          "subject": "Remote work policy revisions",
-          "relation": "decided",
-          "object": "Hybrid team arrangements"
-        },
-        {
-          "subject": "Quarterly virtual team-building event",
-          "relation": "scheduled_for",
-          "object": "Early May"
-        },
-        {
-          "subject": "Employee survey results",
-          "relation": "reported_by",
-          "object": "Employee engagement initiatives"
-        },
-        {
-          "subject": "Internal referral bonus scheme",
-          "relation": "discussed_in",
-          "object": "Meeting 2"
-        },
-        {
-          "subject": "Hiring tracker dashboard",
-          "relation": "suggested_by",
-          "object": "Kevin Tan"
-        },
-        {
-          "subject": "Hiring tracker dashboard",
-          "relation": "related_to",
-          "object": "Management review"
+          "subject": "Ravi Kumar",
+          "relation": "assigned_to",
+          "object": "hiring tracker dashboard development support and hiring analytics provision"
         }
       ]
     },
     {
       "id": 3,
-      "title": "Engineering team progress update",
-      "summary": "Meeting Notes Summary\n\nMeeting Title: Engineering Standup Date: 02 March 2026 Time: 10:00 AM \u2013\n11:00 AM Location: Conference Room A / Zoom\n\nAttendees Alice Tan Ben Lim Chris Wong Diana Koh Ethan Goh\n\nAgenda Project updates Issues and blockers Next steps planning\n\nKey Discussion Points\n\n1.  Progress Update Team reported steady progress with minor blockers.\n\n2.  Issues Some delays due to dependencies and coordination gaps.\n\n3.  Decisions Agreed to prioritize critical tasks for next sprint.\n\n4.  Next Steps Action items assigned to respective team members.\n",
+      "title": "Engineering project update discussion",
+      "summary": "Meeting Notes Summary\n\nMeeting Title: Engineering Standup\nDate: 02 March 2026\nTime: 10:00 AM \u2013 11:00 AM\nLocation: Conference Room A / Zoom\n\nAttendees\nAlice Tan\nBen Lim\nChris Wong\nDiana Koh\nEthan Goh\nAgenda\nProject updates\nIssues and blockers\nNext steps planning\nKey Discussion Points\n1. Progress Update\nAlice Tan shared that the team has been making steady progress across ongoing tasks, with most deliverables on track.\nBen Lim reported that core backend components are nearing completion, with only minor refinements remaining.\nChris Wong added that frontend development is progressing well, though some UI elements are still being polished.\nOverall, the team agreed that progress is consistent but slightly impacted by minor blockers.\n2. Issues and Blockers\nDiana Koh highlighted that some delays were caused by dependencies between modules, particularly where backend APIs were required before frontend integration could proceed.\nEthan Goh mentioned coordination gaps between teams, especially in communication around task handovers.\nBen Lim noted that unclear specifications in certain features also contributed to delays.\nThe team agreed to improve cross-team communication and documentation to reduce similar issues moving forward.\n3. Decisions\nThe team collectively agreed to prioritize critical tasks for the next sprint to ensure key deliverables are completed on time.\nAlice Tan emphasized focusing on high-impact features and unresolved blockers first before moving on to lower-priority enhancements.\nIt was also decided that dependencies should be identified earlier during sprint planning to avoid bottlenecks.\n4. Next Steps\nAction items were assigned to respective team members based on their areas of responsibility.\nDiana Koh will coordinate with teams to resolve dependency-related issues.\nBen Lim will finalize backend components and ensure API readiness for integration.\nChris Wong will continue frontend development and align closely with backend updates.\nEthan Goh will help streamline communication and ensure clear task tracking.\nThe team agreed to review progress again in the next standup meeting.\nAction Items\nAlice Tan to oversee sprint priorities and monitor overall progress.\nBen Lim to complete backend development and support integration.\nChris Wong to refine frontend features and coordinate with backend.\nDiana Koh to address dependencies and improve coordination.\nEthan Goh to enhance communication and track task progress.",
       "triples": [
         {
-          "subject": "Engineering Standup",
-          "relation": "discussed_in",
-          "object": "Meeting 3"
-        },
-        {
           "subject": "Alice Tan",
-          "relation": "attended",
-          "object": "Meeting 3"
+          "relation": "shared",
+          "object": "progress update"
         },
         {
           "subject": "Ben Lim",
-          "relation": "attended",
-          "object": "Meeting 3"
+          "relation": "reported",
+          "object": "core backend components"
         },
         {
           "subject": "Chris Wong",
-          "relation": "attended",
-          "object": "Meeting 3"
+          "relation": "added",
+          "object": "frontend development progress"
+        },
+        {
+          "subject": "The team",
+          "relation": "agreed",
+          "object": "progress is consistent"
         },
         {
           "subject": "Diana Koh",
-          "relation": "attended",
-          "object": "Meeting 3"
+          "relation": "highlighted",
+          "object": "delays caused by dependencies"
         },
         {
           "subject": "Ethan Goh",
-          "relation": "attended",
-          "object": "Meeting 3"
+          "relation": "mentioned",
+          "object": "coordination gaps between teams"
         },
         {
-          "subject": "Project updates",
-          "relation": "discussed_in",
-          "object": "Meeting 3"
+          "subject": "Ben Lim",
+          "relation": "noted",
+          "object": "unclear specifications"
         },
         {
-          "subject": "Issues and blockers",
-          "relation": "discussed_in",
-          "object": "Meeting 3"
+          "subject": "The team",
+          "relation": "agreed",
+          "object": "improve cross-team communication"
         },
         {
-          "subject": "Next steps planning",
-          "relation": "discussed_in",
-          "object": "Meeting 3"
+          "subject": "The team",
+          "relation": "agreed",
+          "object": "prioritize critical tasks"
         },
         {
-          "subject": "Team",
-          "relation": "reported_by",
-          "object": "Progress Update"
+          "subject": "Alice Tan",
+          "relation": "emphasized",
+          "object": "high-impact features"
         },
         {
-          "subject": "Progress Update",
-          "relation": "has_status",
-          "object": "steady progress"
-        },
-        {
-          "subject": "Delays",
-          "relation": "related_to",
-          "object": "dependencies"
-        },
-        {
-          "subject": "Delays",
-          "relation": "related_to",
-          "object": "coordination gaps"
-        },
-        {
-          "subject": "Critical tasks",
+          "subject": "The team",
           "relation": "decided",
-          "object": "prioritization"
+          "object": "identify dependencies earlier"
         },
         {
-          "subject": "Action items",
+          "subject": "Diana Koh",
           "relation": "assigned_to",
-          "object": "team members"
+          "object": "coordinate with teams"
+        },
+        {
+          "subject": "Ben Lim",
+          "relation": "assigned_to",
+          "object": "finalize backend components"
+        },
+        {
+          "subject": "Chris Wong",
+          "relation": "assigned_to",
+          "object": "continue frontend development"
+        },
+        {
+          "subject": "Ethan Goh",
+          "relation": "assigned_to",
+          "object": "streamline communication"
+        },
+        {
+          "subject": "The team",
+          "relation": "agreed",
+          "object": "review progress again"
+        },
+        {
+          "subject": "Alice Tan",
+          "relation": "assigned_to",
+          "object": "oversee sprint priorities"
+        },
+        {
+          "subject": "Ben Lim",
+          "relation": "assigned_to",
+          "object": "complete backend development"
+        },
+        {
+          "subject": "Chris Wong",
+          "relation": "assigned_to",
+          "object": "refine frontend features"
+        },
+        {
+          "subject": "Diana Koh",
+          "relation": "assigned_to",
+          "object": "address dependencies"
+        },
+        {
+          "subject": "Ethan Goh",
+          "relation": "assigned_to",
+          "object": "enhance communication"
         }
       ]
     },
     {
       "id": 4,
-      "title": "Backend Architecture Review discussion",
-      "summary": "Meeting Notes Summary\n\nMeeting Title: Backend Architecture Review Date: 11 March 2026 Time:\n10:00 AM \u2013 11:00 AM Location: Conference Room A / Zoom\n\nAttendees Alice Tan Ben Lim Chris Wong Diana Koh Ethan Goh\n\nAgenda Project updates Issues and blockers Next steps planning\n\nKey Discussion Points\n\n1.  Progress Update Team reported steady progress with minor blockers.\n\n2.  Issues Some delays due to dependencies and coordination gaps.\n\n3.  Decisions Agreed to prioritize critical tasks for next sprint.\n\n4.  Next Steps Action items assigned to respective team members.\n",
+      "title": "Backend Architecture Review",
+      "summary": "Meeting Notes Summary\n\nMeeting Title: Backend Architecture Review\nDate: 11 March 2026\nTime: 10:00 AM \u2013 11:00 AM\nLocation: Conference Room A / Zoom\n\nAttendees\nAlice Tan\nBen Lim\nChris Wong\nDiana Koh\nEthan Goh\nAgenda\nProject updates\nIssues and blockers\nNext steps planning\nKey Discussion Points\n1. Progress Update\nAlice Tan opened the session by noting that backend development is progressing steadily, with most core services already implemented.\nBen Lim reported that the team has successfully set up the core API structure and database schema, and initial endpoints are functional.\nChris Wong added that integration between backend services and frontend components has started, though some endpoints still require refinement.\nOverall progress was described as on track, with only minor blockers affecting specific modules.\n2. Issues and Blockers\nDiana Koh highlighted delays caused by service dependencies, particularly where certain APIs rely on incomplete modules.\nBen Lim mentioned inconsistencies in API response formats, which have created challenges for frontend integration.\nEthan Goh pointed out coordination gaps between developers, especially in aligning on interface contracts and data structures.\nThe team also discussed the need for clearer documentation of backend architecture, including service interactions and data flow.\n3. Decisions\nThe team agreed to prioritize stabilization of core backend services before adding new features.\nAlice Tan emphasized the importance of standardizing API response formats to ensure smoother integration.\nIt was decided to introduce better documentation practices, including API specifications and architecture diagrams.\nThe team also agreed to identify and address critical dependencies earlier in the development cycle.\n4. Next Steps\nAction items were assigned to ensure progress continues efficiently.\nBen Lim will focus on finalizing API endpoints and resolving inconsistencies.\nDiana Koh will work on mapping dependencies and coordinating resolution efforts.\nChris Wong will continue integration testing with the frontend team and report any issues.\nEthan Goh will improve team communication and documentation practices, including maintaining updated architecture notes.\nAlice Tan will oversee progress and ensure alignment with project goals.\nAction Items\nAlice Tan to monitor backend progress and enforce architecture standards.\nBen Lim to finalize APIs and ensure consistency in responses.\nChris Wong to handle integration testing and feedback.\nDiana Koh to resolve dependencies and coordinate across modules.",
       "triples": [
         {
-          "subject": "Project updates",
-          "relation": "discussed_in",
-          "object": "Meeting 4"
+          "subject": "Alice Tan",
+          "relation": "opened",
+          "object": "session"
         },
         {
-          "subject": "Issues and blockers",
-          "relation": "discussed_in",
-          "object": "Meeting 4"
+          "subject": "Alice Tan",
+          "relation": "noted",
+          "object": "backend development progress"
         },
         {
-          "subject": "Next steps planning",
-          "relation": "discussed_in",
-          "object": "Meeting 4"
+          "subject": "Ben Lim",
+          "relation": "reported",
+          "object": "core API structure setup"
         },
         {
-          "subject": "Team",
-          "relation": "reported_by",
-          "object": "Meeting 4"
+          "subject": "Ben Lim",
+          "relation": "reported",
+          "object": "database schema setup"
         },
         {
-          "subject": "Action items",
-          "relation": "assigned_to",
-          "object": "Team members"
+          "subject": "Ben Lim",
+          "relation": "reported",
+          "object": "initial endpoints functionality"
         },
         {
-          "subject": "Critical tasks",
-          "relation": "decided",
-          "object": "Prioritization"
+          "subject": "Chris Wong",
+          "relation": "added",
+          "object": "integration between backend services and frontend components"
         },
         {
-          "subject": "Meeting 4",
-          "relation": "involves",
-          "object": "Alice Tan"
+          "subject": "Chris Wong",
+          "relation": "mentioned",
+          "object": "endpoints refinement"
         },
         {
-          "subject": "Meeting 4",
-          "relation": "involves",
-          "object": "Ben Lim"
+          "subject": "Diana Koh",
+          "relation": "highlighted",
+          "object": "delays caused by service dependencies"
         },
         {
-          "subject": "Meeting 4",
-          "relation": "involves",
-          "object": "Chris Wong"
+          "subject": "Ben Lim",
+          "relation": "mentioned",
+          "object": "inconsistencies in API response formats"
         },
         {
-          "subject": "Meeting 4",
-          "relation": "involves",
-          "object": "Diana Koh"
+          "subject": "Ethan Goh",
+          "relation": "pointed out",
+          "object": "coordination gaps between developers"
         },
         {
-          "subject": "Meeting 4",
-          "relation": "involves",
-          "object": "Ethan Goh"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Product development progress review",
-      "summary": "Meeting Notes Summary\n\nMeeting Title: Product Development Sync\nDate: 3 April 2026\nTime: 2:00 PM \u2013 3:00 PM\nLocation: Conference Room B / Zoom\n\nAttendees:\n\nRachel Lee\nJohn Tan\nSarah Sim\nMark Chia\nOlivia Ng\n\nAgenda:\n\nProduct roadmap review\nFeature development updates\nResource allocation\nUpcoming milestones\n\nKey Discussion Points\n\nProduct Roadmap Review\nTeam reviewed the product roadmap for Q2 2026.\nAdjustments made to align with market feedback and user requirements.\nFeature Development Updates\nSarah presented updates on the new mobile app feature. Some progress was made, but integration with the backend is slower than expected.\nJohn reported a delay in the UI design due to resource constraints.\nResource Allocation\nDiscussion about the need to reassign team members to balance workloads.\nMark suggested bringing in a temporary contractor for UI development to meet deadlines.\nUpcoming Milestones\nAgreed to set the next internal demo for the end of April.\nProduct release is targeted for mid-June.",
-      "triples": [
-        {
-          "subject": "Product Roadmap Review",
-          "relation": "discussed_in",
-          "object": "Meeting 5"
+          "subject": "Ethan Goh",
+          "relation": "raised concern about",
+          "object": "interface contracts and data structures alignment"
         },
         {
-          "subject": "Feature Development Updates",
-          "relation": "discussed_in",
-          "object": "Meeting 5"
+          "subject": "The team",
+          "relation": "discussed",
+          "object": "need for clearer documentation of backend architecture"
         },
         {
-          "subject": "Resource Allocation",
-          "relation": "discussed_in",
-          "object": "Meeting 5"
+          "subject": "The team",
+          "relation": "agreed to prioritize",
+          "object": "stabilization of core backend services"
         },
         {
-          "subject": "Upcoming Milestones",
-          "relation": "discussed_in",
-          "object": "Meeting 5"
+          "subject": "Alice Tan",
+          "relation": "emphasized",
+          "object": "importance of standardizing API response formats"
         },
         {
-          "subject": "Product Roadmap",
-          "relation": "reviewed_by",
-          "object": "Team"
+          "subject": "The team",
+          "relation": "decided to introduce",
+          "object": "better documentation practices"
         },
         {
-          "subject": "New Mobile App Feature",
-          "relation": "reported_by",
-          "object": "Sarah Sim"
+          "subject": "The team",
+          "relation": "agreed to identify and address",
+          "object": "critical dependencies"
         },
         {
-          "subject": "UI Design",
-          "relation": "reported_by",
-          "object": "John Tan"
+          "subject": "Ben Lim",
+          "relation": "assigned to",
+          "object": "finalizing API endpoints"
         },
         {
-          "subject": "UI Development",
-          "relation": "assigned_to",
-          "object": "Temporary Contractor"
+          "subject": "Ben Lim",
+          "relation": "assigned to",
+          "object": "resolving inconsistencies"
         },
         {
-          "subject": "Internal Demo",
-          "relation": "scheduled_for",
-          "object": "End of April"
+          "subject": "Diana Koh",
+          "relation": "assigned to",
+          "object": "mapping dependencies"
         },
         {
-          "subject": "Product Release",
-          "relation": "scheduled_for",
-          "object": "Mid-June"
+          "subject": "Diana Koh",
+          "relation": "assigned to",
+          "object": "coordinating resolution efforts"
         },
         {
-          "subject": "Meeting 5",
-          "relation": "attended_by",
-          "object": "Rachel Lee"
+          "subject": "Chris Wong",
+          "relation": "assigned to",
+          "object": "integration testing with frontend team"
         },
         {
-          "subject": "Meeting 5",
-          "relation": "attended_by",
-          "object": "John Tan"
+          "subject": "Chris Wong",
+          "relation": "assigned to",
+          "object": "reporting issues"
         },
         {
-          "subject": "Meeting 5",
-          "relation": "attended_by",
-          "object": "Sarah Sim"
+          "subject": "Ethan Goh",
+          "relation": "assigned to",
+          "object": "improving team communication and documentation practices"
         },
         {
-          "subject": "Meeting 5",
-          "relation": "attended_by",
-          "object": "Mark Chia"
+          "subject": "Ethan Goh",
+          "relation": "assigned to",
+          "object": "maintaining updated architecture notes"
         },
         {
-          "subject": "Meeting 5",
-          "relation": "attended_by",
-          "object": "Olivia Ng"
+          "subject": "Alice Tan",
+          "relation": "assigned to",
+          "object": "overseeing progress"
         },
         {
-          "subject": "New Mobile App Feature",
-          "relation": "depends_on",
-          "object": "Backend Integration"
+          "subject": "Alice Tan",
+          "relation": "assigned to",
+          "object": "ensuring alignment with project goals"
         },
         {
-          "subject": "UI Design",
-          "relation": "depends_on",
-          "object": "Resource Allocation"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Marketing strategy alignment meeting",
-      "summary": "Meeting Notes Summary\n\nMeeting Title: Marketing Strategy Alignment\nDate: 8 April 2026\nTime: 10:00 AM \u2013 11:15 AM\nLocation: Meeting Room A / Microsoft Teams\n\nAttendees:\n\nDaniel Wong\nMelissa Koh\nAaron Lim\nPriya Nair\nKevin Goh\n\nAgenda:\n\nCampaign performance review\nUpcoming marketing initiatives\nBudget planning\nCross-team collaboration\n\nKey Discussion Points\n\n1. Campaign Performance Review\nThe team analyzed the performance of recent digital campaigns. Social media engagement increased by 15%, while email campaign open rates remained stable. Identified areas for improvement in conversion rates.\n\n2. Upcoming Marketing Initiatives\nMelissa presented plans for a new influencer marketing campaign targeting younger audiences. The team discussed content themes and platform selection, with a focus on short-form video content.\n\n3. Budget Planning\nDiscussion on reallocating budget towards higher-performing channels such as paid social and search ads. Kevin highlighted the need to monitor ROI closely before increasing spend.\n\n4. Cross-Team Collaboration\nPriya emphasized better coordination with the product team to align marketing messaging with upcoming feature releases. Agreed to set up bi-weekly sync meetings.",
-      "triples": [
-        {
-          "subject": "Daniel Wong",
-          "relation": "attended",
-          "object": "Marketing Strategy Alignment meeting"
+          "subject": "Alice Tan",
+          "relation": "assigned to",
+          "object": "monitoring backend progress"
         },
         {
-          "subject": "Melissa Koh",
-          "relation": "attended",
-          "object": "Marketing Strategy Alignment meeting"
+          "subject": "Alice Tan",
+          "relation": "assigned to",
+          "object": "enforcing architecture standards"
         },
         {
-          "subject": "Aaron Lim",
-          "relation": "attended",
-          "object": "Marketing Strategy Alignment meeting"
+          "subject": "Ben Lim",
+          "relation": "assigned to",
+          "object": "finalizing APIs"
         },
         {
-          "subject": "Priya Nair",
-          "relation": "attended",
-          "object": "Marketing Strategy Alignment meeting"
+          "subject": "Ben Lim",
+          "relation": "assigned to",
+          "object": "ensuring consistency in responses"
         },
         {
-          "subject": "Kevin Goh",
-          "relation": "attended",
-          "object": "Marketing Strategy Alignment meeting"
+          "subject": "Chris Wong",
+          "relation": "assigned to",
+          "object": "handling integration testing"
         },
         {
-          "subject": "Campaign performance review",
-          "relation": "discussed_in",
-          "object": "Marketing Strategy Alignment meeting"
+          "subject": "Chris Wong",
+          "relation": "assigned to",
+          "object": "providing feedback"
         },
         {
-          "subject": "Upcoming marketing initiatives",
-          "relation": "discussed_in",
-          "object": "Marketing Strategy Alignment meeting"
+          "subject": "Diana Koh",
+          "relation": "assigned to",
+          "object": "resolving dependencies"
         },
         {
-          "subject": "Budget planning",
-          "relation": "discussed_in",
-          "object": "Marketing Strategy Alignment meeting"
-        },
-        {
-          "subject": "Cross-team collaboration",
-          "relation": "discussed_in",
-          "object": "Marketing Strategy Alignment meeting"
-        },
-        {
-          "subject": "Influencer marketing campaign",
-          "relation": "presented_by",
-          "object": "Melissa Koh"
-        },
-        {
-          "subject": "Bi-weekly sync meetings",
-          "relation": "decided",
-          "object": "Marketing Strategy Alignment meeting"
-        },
-        {
-          "subject": "Marketing Strategy Alignment meeting",
-          "relation": "involves",
-          "object": "Daniel Wong"
-        },
-        {
-          "subject": "Marketing Strategy Alignment meeting",
-          "relation": "involves",
-          "object": "Melissa Koh"
-        },
-        {
-          "subject": "Marketing Strategy Alignment meeting",
-          "relation": "involves",
-          "object": "Aaron Lim"
-        },
-        {
-          "subject": "Marketing Strategy Alignment meeting",
-          "relation": "involves",
-          "object": "Priya Nair"
-        },
-        {
-          "subject": "Marketing Strategy Alignment meeting",
-          "relation": "involves",
-          "object": "Kevin Goh"
-        },
-        {
-          "subject": "Melissa Koh",
-          "relation": "reported_by",
-          "object": "Influencer marketing campaign"
-        },
-        {
-          "subject": "Kevin Goh",
-          "relation": "reported_by",
-          "object": "Budget planning"
-        },
-        {
-          "subject": "Priya Nair",
-          "relation": "reported_by",
-          "object": "Cross-team collaboration"
+          "subject": "Diana Koh",
+          "relation": "assigned to",
+          "object": "coordinating across modules"
         }
       ]
     }

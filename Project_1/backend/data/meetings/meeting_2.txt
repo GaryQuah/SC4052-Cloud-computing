@@ -18,30 +18,34 @@ HR policy review
 Employee engagement initiatives
 Any other business
 Key Discussion Points
-
 1. Recruitment Pipeline
-
-Current open positions: 8 roles across Engineering, Sales, and Marketing.
-3 candidates shortlisted for Engineering roles; interviews scheduled next week.
-Recruitment team exploring new job boards to attract diverse candidates.
-
+Kevin Tan reported that there are currently 8 open positions across Engineering, Sales, and Marketing.
+He mentioned that 3 candidates have been shortlisted for Engineering roles, with interviews scheduled for the following week.
+Kevin Tan added that the recruitment team is exploring new job boards and platforms, particularly those targeting diverse talent pools, to improve candidate quality and inclusivity.
+Amanda Chen asked about time-to-hire metrics, and Ravi Kumar noted that the average hiring cycle has increased slightly due to more rigorous screening processes.
 2. Onboarding & Training
-
-New onboarding schedule finalized for April hires.
-Training program for soft skills and compliance to be rolled out next month.
-Feedback from previous onboarding sessions showed high satisfaction, but suggested more role-specific mentorship.
-
+Emily Lim shared that the new onboarding schedule for April hires has been finalized, with a structured 2-week program covering company orientation, tools training, and team introductions.
+She mentioned that a training program focused on soft skills and compliance (e.g., workplace ethics, data protection) will be rolled out next month.
+Lisa Wong highlighted that feedback from previous onboarding sessions showed high satisfaction overall, but employees requested more role-specific mentorship and hands-on guidance.
+Amanda Chen suggested assigning team mentors or buddies to new hires to improve integration.
 3. HR Policy Review
-
-Annual leave policy updates discussed; approved changes to be communicated by email.
-Remote work policy revisions finalized for hybrid team arrangements.
-
+Amanda Chen led the discussion on annual leave policy updates, confirming that proposed changes have been approved and will be communicated via email to all staff.
+Ravi Kumar noted that the updates aim to provide greater flexibility in leave planning while maintaining operational coverage.
+The team also finalized revisions to the remote work policy, supporting a hybrid work arrangement with clearer guidelines on in-office expectations and remote eligibility.
+Kevin Tan raised a concern about consistency across departments, and Amanda agreed to provide standardized guidelines.
 4. Employee Engagement
-
-Planning a quarterly virtual team-building event in early May.
-Employee survey results indicate interest in wellness programs and flexible hours.
-
+Lisa Wong shared plans for a quarterly virtual team-building event scheduled for early May, aimed at improving cross-team collaboration.
+She mentioned that recent employee survey results indicate strong interest in wellness programs, such as mental health initiatives and fitness activities.
+Ravi Kumar added that employees also expressed a preference for more flexible working hours, especially for teams working across different time zones.
+Amanda Chen suggested piloting a flexible hours framework in selected departments before company-wide adoption.
 5. Other Business
-
-Discussion on implementing an internal referral bonus scheme.
-Kevin suggested a hiring tracker dashboard for management review.
+The team discussed implementing an internal referral bonus scheme to encourage employees to recommend qualified candidates.
+Kevin Tan suggested developing a hiring tracker dashboard for management to monitor recruitment progress, candidate stages, and hiring metrics in real time.
+Ravi Kumar offered to support this by providing data analytics and reporting structures.
+Emily Lim briefly mentioned the possibility of aligning onboarding content with recruitment insights to ensure smoother transitions for new hires.
+Action Items
+Kevin Tan to proceed with Engineering candidate interviews and explore additional recruitment platforms.
+Emily Lim to finalize onboarding materials and prepare training rollout for next month.
+Amanda Chen to communicate updated HR policies and define hybrid work guidelines.
+Lisa Wong to organize the May team-building event and propose wellness initiatives.
+Ravi Kumar to support development of the hiring tracker dashboard and provide hiring analytics.

@@ -15,6 +15,6 @@ app.add_middleware(
 @app.on_event("startup")
 def startup():
     controller.load_cache()
-    print("[BOOT] Ready")
+    print("[STARTUP] Ready")
 
 app.include_router(routers.router)
